@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper below."
-title: "canada-observing-budget: code and data for 'Usable Observing Nights in Eight Canadian Cities: Cloud, Transparency, and Smoke, 2020-2025'"
+title: "canada-observing-budget: code and data for 'Counting Usable Observing Nights from Public Data: Cloud, Transparency, and Smoke in Eight Canadian Cities, 2020-2025'"
 authors:
   - family-names: Fernandes Medeiros
     given-names: Jerry
@@ -38,7 +38,7 @@ references:
         description: "Concept DOI, resolves to the latest version"
 preferred-citation:
   type: article
-  title: "Usable Observing Nights in Eight Canadian Cities: Cloud, Transparency, and Smoke, 2020-2025"
+  title: "Counting Usable Observing Nights from Public Data: Cloud, Transparency, and Smoke in Eight Canadian Cities, 2020-2025"
   authors:
     - family-names: Fernandes Medeiros
       given-names: Jerry

@@ -1,10 +1,10 @@
 [![DOI](https://zenodo.org/badge/1421227259.svg)](https://doi.org/10.5281/zenodo.23404141)
-# Usable Observing Nights in Eight Canadian Cities: Cloud, Transparency, and Smoke, 2020–2025
+# Counting Usable Observing Nights from Public Data: Cloud, Transparency, and Smoke in Eight Canadian Cities, 2020–2025
 
 Code and data behind:
 
-**Fernandes Medeiros, J. (2026).** *Usable Observing Nights in Eight Canadian Cities: Cloud,
-Transparency, and Smoke, 2020–2025.* Submitted to the Journal of the Royal Astronomical
+**Fernandes Medeiros, J. (2026).** *Counting Usable Observing Nights from Public Data: Cloud,
+Transparency, and Smoke in Eight Canadian Cities, 2020–2025.* Submitted to the Journal of the Royal Astronomical
 Society of Canada.
 
 The paper counts, for Toronto, Montréal, Ottawa, Halifax, Winnipeg, Calgary, Edmonton and

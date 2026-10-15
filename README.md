@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1421227259.svg)](https://doi.org/10.5281/zenodo.23404141)
 # Usable Observing Nights in Eight Canadian Cities: Cloud, Transparency, and Smoke, 2020–2025
 
 Code and data behind:

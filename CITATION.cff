@@ -19,11 +19,23 @@ references:
         given-names: Jerry
         orcid: "https://orcid.org/0000-0001-5825-7675"
     year: 2026
-    notes: "Companion paper. Supplies the night-day gaps in data/paper1/ that this repository corrects with."
+    notes: "Preprint on ESS Open Archive, submitted to J. Atmos. Oceanic Technol. Supplies the night-day gaps in data/paper1/ that this repository corrects with."
+    identifiers:
+      - type: doi
+        value: 10.22541/essoar.15007419/v1
+        description: "ESS Open Archive preprint"
+  - type: software
+    title: "metar-night-bias-study: code and data for Human cloud reports overstate nighttime clearing"
+    authors:
+      - family-names: Fernandes Medeiros
+        given-names: Jerry
+        orcid: "https://orcid.org/0000-0001-5825-7675"
+    year: 2026
+    repository-code: "https://github.com/jerryfmedeiros/metar-night-bias-study"
     identifiers:
       - type: doi
         value: 10.5281/zenodo.21698181
-        description: "Concept DOI for the companion paper's code and data archive"
+        description: "Concept DOI, resolves to the latest version"
 preferred-citation:
   type: article
   title: "Usable Observing Nights in Eight Canadian Cities: Cloud, Transparency, and Smoke, 2020-2025"

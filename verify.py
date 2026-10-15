@@ -78,7 +78,7 @@ EXTRA: list[tuple[str, Path, list[str]]] = [
     ("correction_shape", RESULTS / "correction_shape.txt", ["correction_shape.py"]),
     ("view_angles", RESULTS / "view_angles.txt", ["view_angles.py"]),
     ("pairwise_all", RESULTS / "pairwise_all.txt", ["pairwise_all.py"]),
-    # How much the ranking leans on the companion paper's gaps: none, halved, x1.5, one gap.
+    # How much the ranking leans on the measured gaps: none, halved, x1.5, one gap.
     ("pairwise_all_raw", RESULTS / "pairwise_all_raw.txt", ["pairwise_all.py", "--scale", "0"]),
     ("pairwise_all_x0.5", RESULTS / "pairwise_all_x0.5.txt", ["pairwise_all.py", "--scale", "0.5"]),
     ("pairwise_all_x1.5", RESULTS / "pairwise_all_x1.5.txt", ["pairwise_all.py", "--scale", "1.5"]),

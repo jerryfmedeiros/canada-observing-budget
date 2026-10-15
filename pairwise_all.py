@@ -8,7 +8,7 @@ blocks, the gap redrawn from its interval in each replicate) and reports each on
 plain 95% level and with a Bonferroni adjustment for 28 comparisons. The adjusted tail is
 0.09% a side, so the bootstrap uses 20000 replicates rather than 2000.
 
-The gaps that set the correction's size are the companion paper's measurements (gaps.py).
+The gaps that set the correction's size are the measurements of Fernandes Medeiros (2026) (gaps.py).
 Two options test how much the ranking leans on them. --scale K multiplies every city's gap
 (and its interval) by K, so --scale 0 is the uncorrected record. --equal-gap gives every city
 the mean of the eight satellite gaps, keeping the interval width of its own gap, so only

@@ -24,7 +24,7 @@ corrected ranking is reported under all three:
 Values are night-unit bootstrap estimates with 95% intervals, read from
 data/paper1/dynamic_tables.csv at threshold_cm = 1.0 (records human_minus_goes,
 human_minus_goes_west, human_minus_goes_east). The moonless budget adds each city's dark-sky
-increment from the companion paper's VIIRS moonlight split on top of whichever gap applies;
+increment from the VIIRS moonlight split of Fernandes Medeiros (2026) on top of whichever gap applies;
 Edmonton takes none (VIIRS null there) and Montreal's is floored at zero.
 """
 from __future__ import annotations

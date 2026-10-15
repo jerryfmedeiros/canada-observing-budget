@@ -13,7 +13,7 @@ free of surface smoke (NAPS PM2.5 and the METAR smoke code). After correcting th
 cloud reports for their nighttime optimism, the cities have 58–98 such nights a year with
 clear darkness and 48–70 good nights; Winnipeg and Calgary have the most good nights.
 
-The nighttime-clearing bias the counts are corrected for is measured in the companion paper,
+The nighttime-clearing bias the counts are corrected for is measured by Fernandes Medeiros (2026),
 *Human cloud reports overstate nighttime clearing* ([code and data](https://doi.org/10.5281/zenodo.21698181)).
 Its per-station tables are shipped here under `data/paper1/`, so the correction can be
 reproduced without that archive.
@@ -143,7 +143,7 @@ data/era5_cache/<slug>/  ERA5 PWV and winds, 2020-2025, and PWV back to 2001 (28
 data/pm25_cache/         NAPS hourly PM2.5, 2020-2024 (56 MB)
 data/merra2_cache/       MERRA-2 column AOD per city (8.7 MB)
 data/snow_cache/         ERA5-Land daily snow depth per city
-data/paper1/             tables from the companion paper: the gaps used here
+data/paper1/             tables from Fernandes Medeiros (2026): the gaps used here
 data/derived/<slug>/     observable.txt (the city's budget) and auto_screen.json
 data/derived/correction_shape.csv   the measured correction profile
 data/ne_cache/           Natural Earth land and lakes (escape distances)

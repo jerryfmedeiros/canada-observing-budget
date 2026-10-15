@@ -544,7 +544,7 @@ def main():
 
     # 3) Human minus automated night-day difference of differences ------------ #
     # Cities without an automated partner have no such comparison here; their gap comes
-    # from the satellite comparison of the companion paper (gaps.py).
+    # from the satellite comparison of Fernandes Medeiros (2026) (gaps.py).
     human, auto = site.human, site.auto
     if auto and human in _STASH and auto in _STASH:
         rng = np.random.default_rng(args.seed + 999)

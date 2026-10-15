@@ -9,10 +9,10 @@ looser definition is therefore
     gap_4 = gap_2 + (human_delta_4 - human_delta_2)
 
 where human_delta_k is the human station's own night-day usable delta at okta <= k, measured
-as the companion paper measures it: snow-free ground (ERA5-Land depth <= 1 cm on the date),
+as Fernandes Medeiros (2026) measures it: snow-free ground (ERA5-Land depth <= 1 cm on the date),
 night = Sun <= -12 deg, day = Sun >= +6 deg, the mean per night or day over units with at
-least 2 reports, 2020-2025. The okta <= 2 delta is first checked against the companion
-paper's value. The shift is measured over all snow-free units rather than the GOES-matched
+least 2 reports, 2020-2025. The okta <= 2 delta is first checked against the value
+in that paper. The shift is measured over all snow-free units rather than the GOES-matched
 subset, which assumes the change of definition acts the same way on both.
 
 Usage: python3 sct_gap.py
@@ -97,7 +97,7 @@ def sct_gaps(verbose: bool = False) -> dict[str, float]:
 
 def main():
     print("Human night-day usable delta (pp, snow-free units night/day) and the loose gap\n")
-    print(f"{'city':10s} {'okta<=2 here':>18s}  {'companion paper':>16s}   {'okta<=4':>7s}   "
+    print(f"{'city':10s} {'okta<=2 here':>18s}  {'earlier paper':>16s}   {'okta<=4':>7s}   "
           f"{'gap_2 -> gap_4':>14s}")
     sct_gaps(verbose=True)
 

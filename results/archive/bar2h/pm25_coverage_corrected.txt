@@ -1,0 +1,17 @@
+NAPS PM2.5 coverage behind the smoke screen, and MERRA-2 column AOD (threshold 0.30) on the nights it misses
+
+city         obs  uncov  uncov%  great  g.uncov  aod>thr  max AOD
+calgary      624    213   34.1%    336      102        1     0.51
+vancouver    677    125   18.5%    248       43        1     0.33
+edmonton     529     88   16.6%    301       45        0     0.25
+winnipeg     771    146   18.9%    351       62        0     0.25
+toronto      852    152   17.8%    217       35        1     0.31
+ottawa       777    139   17.9%    251       38        1     0.31
+montreal     776    127   16.4%    239       31        0     0.20
+halifax      686    161   23.5%    190       44        0     0.21
+-----------------------------------------------------------------
+POOLED      5692   1151   20.2%   2133      400        4     0.51
+
+Coverage is thinnest at calgary (34% of its observable nights have no surface PM2.5), against 16-23% elsewhere.
+Great nights resting on an empty smoke screen: 400 pooled over the eight cities, 67/yr.
+Of those, 4 carry a median dark-hour AOD above 0.30; the highest any of them reaches is 0.51.

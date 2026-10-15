@@ -1,0 +1,32 @@
+
+OBSERVABLE nights/yr:
+city         SKC+FEW (paper)      +SCT (loose)   change
+toronto                115.3             142.7     +24%
+winnipeg               103.8             128.7     +24%
+montreal               100.5             123.8     +23%
+calgary                 98.5             128.7     +31%
+ottawa                  93.3             120.7     +29%
+halifax                 90.3             114.7     +27%
+vancouver               83.8             104.3     +24%
+edmonton                74.7              98.5     +32%
+Ranking:
+  SKC+FEW (paper)  : tor > win > mon > cal > ott > hal > van > edm
+  +SCT (loose)     : tor > cal > win > mon > ott > hal > van > edm
+
+GREAT nights/yr:
+city         SKC+FEW (paper)      +SCT (loose)   change
+calgary                 53.5              64.7     +21%
+winnipeg                50.8              62.2     +22%
+edmonton                44.2              57.0     +29%
+ottawa                  34.2              41.3     +21%
+vancouver               34.0              42.3     +25%
+montreal                33.7              40.5     +20%
+toronto                 32.0              37.3     +17%
+halifax                 26.3              31.8     +21%
+Ranking:
+  SKC+FEW (paper)  : cal > win > edm > ott > van > mon > tor > hal
+  +SCT (loose)     : cal > win > edm > van > ott > mon > tor > hal
+
+Counting SCT raises the observable count by 27% on average.
+  observable ordering unchanged at all eight positions: False
+  great-night podium unchanged: True (calgary, edmonton, winnipeg)

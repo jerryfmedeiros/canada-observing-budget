@@ -1,0 +1,21 @@
+Walker-law skyglow index (VIIRS VNL 2022, d^-2.5 within 250 km), normalised to the eight-city median downtown value = 1.00
+city       downtown  box rad  escape km to index <= median/30/100/300/1000
+winnipeg       1.43    125.4      17      24      39      61
+edmonton       1.43    114.9      20      31      48      87
+calgary        1.09     92.7      15      24      39      66
+montreal       1.05    111.4      27      52      76     131
+toronto        0.95     99.8      40      55      87     143
+ottawa         0.72     64.4      14      20      33      62
+vancouver      0.59     55.6      11      18      29      57
+halifax        0.45     45.5       8      13      24      43
+
+Reference: index at RASC Dark-Sky Preserves (same normalisation)
+  Beaver Hills (AB)        0.0048  (= median/207)
+  Cypress Hills (AB/SK)    0.0001  (= median/7172)
+  Mont-Megantic (QC)       0.0010  (= median/1021)
+  Torrance Barrens (ON)    0.0016  (= median/616)
+  Kejimkujik (NS)          0.0003  (= median/3830)
+
+Spearman rank correlations (n = 8; |rho| >= 0.74 needed for p < 0.05 two-sided)
+  good     vs downtown index +0.57; vs box radiance +0.50; vs escape (1/100) +0.43
+  low-jet  vs downtown index +0.74; vs box radiance +0.52; vs escape (1/100) +0.07

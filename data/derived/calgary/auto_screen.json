@@ -1,0 +1,34 @@
+{
+  "site": "calgary",
+  "human": "CYYC",
+  "auto": "CYBW",
+  "years": [
+    2020,
+    2025
+  ],
+  "night_solar_alt_max_deg": -12.0,
+  "stations": [
+    {
+      "station": "CYYC",
+      "role": "human",
+      "n_reports": 62140,
+      "pct_auto_all": 0.0,
+      "night_n": 22866,
+      "night_pct_auto": 0.0,
+      "night_usable_pct": 31.5,
+      "qualifies": true,
+      "verdict": "OK human-augmented"
+    },
+    {
+      "station": "CYBW",
+      "role": "auto",
+      "n_reports": 86202,
+      "pct_auto_all": 100.0,
+      "night_n": 33577,
+      "night_pct_auto": 100.0,
+      "night_usable_pct": 32.5,
+      "qualifies": true,
+      "verdict": "OK automated"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+Observable-night climatology 2020-2025  (Ottawa, local tz America/Toronto)
+Usable = okta<=2; darkness -18deg & -12deg; moonless = Moon below horizon
+Observable = at least 4 h of expected clear astronomical darkness
+============================================================================================
+Loading NAPS PM2.5 (smoke proxy) ...
+  43331 Ottawa PM2.5 station-hours loaded
+Loading ERA5 PWV + 200 hPa wind + 10 m wind ...
+  52608 PWV, 52608 200hPa-wind, 52608 10m-wind hours loaded
+Computing deterministic dark/moonless budgets per night ...
+
+[DARK-TIME BUDGET] mean hours/night by month (deterministic)
+Mon  |  dark-18 | moonless-18 |  dark-12 | moonless-12
+--------------------------------------------------------
+1    |    11.31 |        5.57 |    12.48 |        6.16
+2    |    10.24 |        5.03 |    11.38 |        5.60
+3    |     8.70 |        4.32 |     9.87 |        4.91
+4    |     6.77 |        3.39 |     8.13 |        4.07
+5    |     4.66 |        2.36 |     6.43 |        3.28
+6    |     3.27 |        1.71 |     5.49 |        2.85
+7    |     4.10 |        2.17 |     6.03 |        3.15
+8    |     6.16 |        3.22 |     7.61 |        3.95
+9    |     8.14 |        4.19 |     9.36 |        4.82
+10   |     9.82 |        4.96 |    10.96 |        5.54
+11   |    11.07 |        5.52 |    12.23 |        6.11
+12   |    11.64 |        5.73 |    12.84 |        6.33
+
+Annual astronomical-dark hours (sky maximum):    2915 h/yr (moonless   1466 h/yr)
+
+============================================================================================
+STATION CYOW
+
+[OBSERVABLE BUDGET] CYOW — full-year totals, astronomical dark (-18), bar 4 h
+  (smoke-clean = no FU/PM2.5>=35; corr = bias-corrected, satellite gap 10.4 pp)
+Year  | clear-dark h | clr-moonless h |  observable | smoke-clean |        good |     low-jet |    obs corr |   good corr | clr-dark h corr |  imput
+--------------------------------------------------------------------------------------------------------------------------------------------------
+2020  |          817 |            453 |          90 |          90 |          70 |          36 |          76 |          58 |             708 |    0%
+2021  |          823 |            419 |          96 |          96 |          64 |          32 |          80 |          52 |             713 |    0%
+2022  |          907 |            449 |          98 |          98 |          77 |          40 |          83 |          65 |             808 |    0%
+2023  |          845 |            401 |          93 |          93 |          62 |          36 |          86 |          56 |             750 |    0%
+2024  |          856 |            427 |          90 |          90 |          52 |          29 |          82 |          45 |             757 |    0%
+2025  |          872 |            430 |          93 |          92 |          65 |          32 |          82 |          57 |             763 |    0%
+mean  |          853 |            430 |          93 |          93 |          65 |          34 |          82 |          56 |             750 | (smoke -0/yr)
+  Attrition (raw): observable 93 -> smoke-clean 93 -> transparent (good) 65 nights/yr, of which low-jet 34 (PWV<=15mm; low-jet: 200hPa wind<=30m/s, 10m wind<=8m/s)
+
+[OBSERVABLE BY SEASON] CYOW — per sampled night (-18 dark)
+Season   | clear-dark h/nt | moonless h/nt | P(observable) 95% CI |     N
+-------------------------------------------------------------------------
+WINTER   |            2.26 |          1.10 | 23.5% [20%,27%] |   540
+SPRING   |            2.14 |          1.09 | 27.0% [23%,31%] |   552
+SUMMER   |            1.76 |          0.90 | 16.3% [13%,20%] |   552
+AUTUMN   |            3.20 |          1.62 | 35.5% [32%,40%] |   546
+
+[OBSERVING CALENDAR] CYOW — per month (astronomical dark), nights per year
+Mon  | clr-dark h/nt | moonless h/nt |  observable |        good |    obs corr |   good corr | clr-dark h/nt corr
+-----------------------------------------------------------------------------------------------------------------
+Jan  |          2.36 |          1.20 |         7.5 |         7.5 |         6.2 |         6.2 |               2.03
+Feb  |          2.55 |          1.30 |         8.0 |         8.0 |         6.7 |         6.7 |               2.09
+Mar  |          2.41 |          1.22 |         8.8 |         8.7 |         8.2 |         8.0 |               2.10
+Apr  |          2.21 |          1.19 |         9.2 |         8.3 |         7.3 |         6.7 |               1.98
+May  |          1.81 |          0.86 |         6.8 |         5.5 |         6.5 |         5.2 |               1.69
+Jun  |          1.12 |          0.66 |         0.0 |         0.0 |         0.0 |         0.0 |               1.06
+Jul  |          1.68 |          0.82 |         4.2 |         0.2 |         4.2 |         0.2 |               1.55
+Aug  |          2.45 |          1.21 |        10.8 |         1.0 |        10.3 |         1.0 |               2.28
+Sep  |          3.55 |          1.82 |        12.5 |         4.5 |        10.8 |         4.2 |               3.25
+Oct  |          3.50 |          1.75 |        11.8 |         8.5 |        10.5 |         7.5 |               3.09
+Nov  |          2.52 |          1.30 |         8.0 |         7.2 |         6.0 |         5.2 |               2.01
+Dec  |          1.88 |          0.81 |         5.7 |         5.7 |         4.8 |         4.8 |               1.51
+
+[DIURNAL] CYOW — usable-sky (okta<=2) fraction by local clock hour
+Hour  |  usable |       N    (all obs, America/Toronto)
+----------------------------------------
+00:00 |  27.4% |    2630
+01:00 |  28.0% |    2645
+02:00 |  27.5% |    2615
+03:00 |  27.3% |    2670
+04:00 |  26.2% |    2680
+05:00 |  24.8% |    2777
+06:00 |  24.6% |    2622
+07:00 |  24.1% |    2630
+08:00 |  22.9% |    2629
+09:00 |  22.2% |    2621
+10:00 |  21.5% |    2626
+11:00 |  20.1% |    2565
+12:00 |  17.4% |    2602
+13:00 |  15.7% |    2590
+14:00 |  14.1% |    2615
+15:00 |  13.4% |    2655
+16:00 |  14.2% |    2610
+17:00 |  15.4% |    2630
+18:00 |  17.4% |    2669
+19:00 |  19.2% |    2715
+20:00 |  20.7% |    2692
+21:00 |  22.7% |    2656
+22:00 |  24.8% |    2644
+23:00 |  27.4% |    2634
+
+[TRANSPARENCY] CYOW — obscuration among CLEAR dark obs (okta<=2, sun<=-18)
+Year   | clear-dark obs |    smoke |     haze |  any obsc
+--------------------------------------------------------
+2020   |            842 |    0.0% |    0.0% |     2.5%
+2021   |            858 |    0.0% |    0.0% |     4.7%
+2022   |            915 |    0.0% |    0.0% |     2.8%
+2023   |            861 |    0.3% |    0.0% |     1.6%
+2024   |            884 |    0.0% |    0.0% |     2.0%
+2025   |            896 |    0.6% |    0.0% |     2.3%
+season |
+WINTER |           1247 |    0.0% |    0.0% |     2.3%
+SPRING |           1230 |    0.0% |    0.0% |     0.5%
+SUMMER |            959 |    0.8% |    0.0% |     2.7%
+AUTUMN |           1820 |    0.0% |    0.0% |     4.3%
+
+[PM2.5 SMOKE] CYOW — PM2.5>=35 ug/m3 among CLEAR dark obs (matched hours; independent of METAR FU)
+bucket   | matched obs | smoke (PM2.5)
+----------------------------------------
+2020     |         838 |         0.1%
+2021     |         849 |         0.0%
+2022     |         915 |         0.0%
+2023     |         840 |         0.4%
+2024     |         861 |         0.0%
+WINTER   |        1034 |         0.1%
+SPRING   |        1056 |         0.0%
+SUMMER   |         766 |         0.4%
+AUTUMN   |        1447 |         0.0%
+
+[BIAS night-level] CYOW usable fraction (okta<=2), unit = night/day
+  Night (sun<=-12):  31.4%  95% CI [29.8%, 32.9%]  (2192 nights)
+  Day   (sun>= 6 ):  20.7%  95% CI [19.3%, 22.0%]  (2190 days)
+  Night-Day delta: +10.7 pp  95% CI [+8.7, +12.8] pp
+
+============================================================================================
+[BIAS] Ottawa: no automated partner configured; the gap comes from the satellite comparison (gaps.py).

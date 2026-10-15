@@ -1,0 +1,297 @@
+pass 1: 1812 of 1824 months to fetch
+  CDS pwv 2002-01 (queued server-side) ...
+  CDS pwv 2002-02 (queued server-side) ...
+  CDS pwv 2002-03 (queued server-side) ...
+  CDS pwv 2002-04 (queued server-side) ...
+2026-10-02 17:14:01,971 INFO Request ID is 032d49f4-8ccd-44c0-a839-19353fab6c2c
+Recovering from HTTP error [502 Bad Gateway], attempt 1 of 500
+Retrying in 120 seconds
+2026-10-02 17:14:02,916 INFO status has been updated to accepted
+2026-10-02 17:14:04,875 INFO Request ID is a0f618a1-e594-4029-8217-3b8ddafc46ba
+2026-10-02 17:14:05,113 INFO status has been updated to accepted
+2026-10-02 17:14:05,118 INFO Request ID is d9a81992-3df9-4e90-b4bf-c9228850b376
+2026-10-02 17:14:05,308 INFO status has been updated to accepted
+2026-10-02 17:14:08,487 INFO status has been updated to rejected
+  pwv 2002-03 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/032d49f4-8ccd-44c0-a839-19353fab6c2c/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  1/1812  last calgary 2002-03 FAILED
+  CDS pwv 2002-05 (queued server-side) ...
+2026-10-02 17:14:10,225 INFO Request ID is f94f3971-134a-4387-acc1-4e4bfa6479d6
+2026-10-02 17:14:10,412 INFO status has been updated to accepted
+2026-10-02 17:14:21,031 INFO status has been updated to rejected
+  pwv 2002-05 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/f94f3971-134a-4387-acc1-4e4bfa6479d6/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  2/1812  last calgary 2002-05 FAILED
+  CDS pwv 2002-06 (queued server-side) ...
+2026-10-02 17:14:21,891 INFO status has been updated to rejected
+  pwv 2002-02 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a0f618a1-e594-4029-8217-3b8ddafc46ba/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  3/1812  last calgary 2002-02 FAILED
+  CDS pwv 2002-07 (queued server-side) ...
+2026-10-02 17:14:23,020 INFO Request ID is 1b0b24b0-cd0a-4edc-85b9-5b8084cdfc8b
+2026-10-02 17:14:23,988 INFO status has been updated to rejected
+2026-10-02 17:14:24,007 INFO Request ID is 073b57f6-0768-4310-9c76-409690640354
+2026-10-02 17:14:24,200 INFO status has been updated to accepted
+  pwv 2002-04 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/d9a81992-3df9-4e90-b4bf-c9228850b376/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  4/1812  last calgary 2002-04 FAILED
+  CDS pwv 2002-08 (queued server-side) ...
+2026-10-02 17:14:26,785 INFO status has been updated to accepted
+2026-10-02 17:14:29,530 INFO Request ID is 6565dc4f-e858-48b5-b94e-1aac5fce1334
+2026-10-02 17:14:29,856 INFO status has been updated to accepted
+2026-10-02 17:14:40,258 INFO status has been updated to rejected
+  pwv 2002-08 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/6565dc4f-e858-48b5-b94e-1aac5fce1334/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  5/1812  last calgary 2002-08 FAILED
+  CDS pwv 2002-09 (queued server-side) ...
+2026-10-02 17:14:42,504 INFO Request ID is 3fef3ff5-611c-4873-a6ab-27aa58f17cf1
+2026-10-02 17:14:42,689 INFO status has been updated to accepted
+2026-10-02 17:14:46,532 INFO status has been updated to rejected
+  pwv 2002-07 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/073b57f6-0768-4310-9c76-409690640354/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  6/1812  last calgary 2002-07 FAILED
+  CDS pwv 2002-10 (queued server-side) ...
+2026-10-02 17:14:51,387 INFO Request ID is 077ab1d7-24dd-4039-9315-997fd53387e9
+2026-10-02 17:14:51,566 INFO status has been updated to accepted
+2026-10-02 17:15:18,558 INFO status has been updated to rejected
+  pwv 2002-09 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/3fef3ff5-611c-4873-a6ab-27aa58f17cf1/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  7/1812  last calgary 2002-09 FAILED
+  CDS pwv 2002-11 (queued server-side) ...
+2026-10-02 17:15:20,609 INFO Request ID is 634d5917-a59c-47d1-b5f6-81db9c05c1d9
+2026-10-02 17:15:20,811 INFO status has been updated to accepted
+2026-10-02 17:15:26,958 INFO status has been updated to rejected
+  pwv 2002-10 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/077ab1d7-24dd-4039-9315-997fd53387e9/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  8/1812  last calgary 2002-10 FAILED
+  CDS pwv 2002-12 (queued server-side) ...
+2026-10-02 17:15:29,077 INFO Request ID is 2298fbfd-deaa-429a-9e24-47c17ad0103b
+2026-10-02 17:15:29,251 INFO status has been updated to accepted
+2026-10-02 17:15:35,077 INFO status has been updated to rejected
+  pwv 2002-11 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/634d5917-a59c-47d1-b5f6-81db9c05c1d9/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  9/1812  last calgary 2002-11 FAILED
+  CDS pwv 2003-01 (queued server-side) ...
+2026-10-02 17:15:36,892 INFO Request ID is 22d340f6-d147-4243-a996-d1bff537f820
+2026-10-02 17:15:37,084 INFO status has been updated to accepted
+2026-10-02 17:15:43,576 INFO status has been updated to rejected
+  pwv 2002-12 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/2298fbfd-deaa-429a-9e24-47c17ad0103b/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  10/1812  last calgary 2002-12 FAILED
+  CDS pwv 2003-02 (queued server-side) ...
+2026-10-02 17:15:45,319 INFO Request ID is 41e2be35-d408-4688-b943-01e6929b2352
+2026-10-02 17:15:45,503 INFO status has been updated to accepted
+2026-10-02 17:15:46,197 INFO status has been updated to rejected
+  pwv 2003-01 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/22d340f6-d147-4243-a996-d1bff537f820/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  11/1812  last calgary 2003-01 FAILED
+  CDS pwv 2003-03 (queued server-side) ...
+2026-10-02 17:15:49,047 INFO Request ID is 5679f851-9dae-446d-bb21-6fa13c44e6a2
+2026-10-02 17:15:49,252 INFO status has been updated to accepted
+2026-10-02 17:15:55,215 INFO status has been updated to rejected
+  pwv 2003-02 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/41e2be35-d408-4688-b943-01e6929b2352/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  CDS pwv 2003-04 (queued server-side) ...
+  12/1812  last calgary 2003-02 FAILED
+2026-10-02 17:16:00,704 INFO Request ID is 608bbd9e-5689-4c07-bb2c-86db1ba1e16f
+2026-10-02 17:16:01,385 INFO status has been updated to accepted
+2026-10-02 17:16:03,449 INFO Request ID is 5aa82035-d0ab-40be-ab78-5e5ba811fc3c
+2026-10-02 17:16:03,635 INFO status has been updated to accepted
+2026-10-02 17:16:04,722 INFO status has been updated to rejected
+  pwv 2003-03 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/5679f851-9dae-446d-bb21-6fa13c44e6a2/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  13/1812  last calgary 2003-03 FAILED
+  CDS pwv 2003-05 (queued server-side) ...
+Recovering from HTTP error [502 Bad Gateway], attempt 1 of 500
+Retrying in 120 seconds
+2026-10-02 17:16:12,757 INFO status has been updated to rejected
+  pwv 2002-01 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/5aa82035-d0ab-40be-ab78-5e5ba811fc3c/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  CDS pwv 2003-06 (queued server-side) ...
+  14/1812  last calgary 2002-01 FAILED
+2026-10-02 17:16:15,662 INFO Request ID is 87520de1-4ad3-4290-a719-dbccd8475f80
+2026-10-02 17:16:15,847 INFO status has been updated to rejected
+2026-10-02 17:16:15,855 INFO status has been updated to accepted
+  pwv 2003-04 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/608bbd9e-5689-4c07-bb2c-86db1ba1e16f/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  15/1812  last calgary 2003-04 FAILED
+  CDS pwv 2003-07 (queued server-side) ...
+2026-10-02 17:16:18,313 INFO Request ID is a287db02-bb9c-4827-9ded-c23497af2408
+2026-10-02 17:16:18,500 INFO status has been updated to accepted
+2026-10-02 17:16:21,467 INFO status has been updated to rejected
+  pwv 2003-06 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/87520de1-4ad3-4290-a719-dbccd8475f80/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  16/1812  last calgary 2003-06 FAILED
+  CDS pwv 2003-08 (queued server-side) ...
+2026-10-02 17:16:24,755 INFO Request ID is f7531da7-5be0-422f-b6dc-707f78910bc9
+2026-10-02 17:16:24,940 INFO status has been updated to accepted
+2026-10-02 17:16:34,968 INFO status has been updated to rejected
+2026-10-02 17:16:35,596 INFO status has been updated to rejected
+  pwv 2003-08 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/f7531da7-5be0-422f-b6dc-707f78910bc9/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  17/1812  last calgary 2003-08 FAILED
+  CDS pwv 2003-09 (queued server-side) ...
+  pwv 2003-07 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a287db02-bb9c-4827-9ded-c23497af2408/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  18/1812  last calgary 2003-07 FAILED
+  CDS pwv 2003-10 (queued server-side) ...
+2026-10-02 17:16:38,728 INFO Request ID is 90901cfe-2042-47ab-a8ca-5794d31c6637
+2026-10-02 17:16:38,938 INFO status has been updated to accepted
+2026-10-02 17:16:39,660 INFO Request ID is 632b27aa-6572-450e-907b-1c46b3d15d9c
+2026-10-02 17:16:39,998 INFO status has been updated to accepted
+2026-10-02 17:16:50,490 INFO status has been updated to rejected
+  pwv 2003-09 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/632b27aa-6572-450e-907b-1c46b3d15d9c/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  19/1812  last calgary 2003-09 FAILED
+  CDS pwv 2003-11 (queued server-side) ...
+2026-10-02 17:16:52,361 INFO Request ID is cea352a3-12ba-42f7-a826-c1fd906ea5c6
+2026-10-02 17:16:52,615 INFO status has been updated to accepted
+2026-10-02 17:16:53,222 INFO status has been updated to rejected
+  pwv 2003-10 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/90901cfe-2042-47ab-a8ca-5794d31c6637/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  20/1812  last calgary 2003-10 FAILED
+  CDS pwv 2003-12 (queued server-side) ...
+2026-10-02 17:16:59,429 INFO Request ID is d7ae1ec4-4553-4d53-bc1f-3c3bf5d6b281
+2026-10-02 17:16:59,703 INFO status has been updated to accepted
+2026-10-02 17:18:08,907 INFO Request ID is a26c57e7-be80-4ceb-826e-23a42bab26b6
+2026-10-02 17:18:09,173 INFO status has been updated to accepted
+2026-10-02 17:18:26,497 INFO status has been updated to rejected
+  pwv 2003-05 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a26c57e7-be80-4ceb-826e-23a42bab26b6/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  21/1812  last calgary 2003-05 FAILED
+  CDS pwv 2004-01 (queued server-side) ...
+2026-10-02 17:18:28,331 INFO Request ID is d8bdd872-1e85-4916-82bb-045d60ff4d86
+2026-10-02 17:18:29,526 INFO status has been updated to accepted
+2026-10-02 17:18:41,415 INFO status has been updated to rejected
+  pwv 2004-01 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/d8bdd872-1e85-4916-82bb-045d60ff4d86/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  22/1812  last calgary 2004-01 FAILED
+  CDS pwv 2004-02 (queued server-side) ...
+2026-10-02 17:18:47,706 INFO Request ID is 14955ae5-d9c2-40b1-a743-0b1196a509fc
+2026-10-02 17:18:47,970 INFO status has been updated to accepted
+2026-10-02 17:19:03,046 INFO status has been updated to rejected
+  pwv 2004-02 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/14955ae5-d9c2-40b1-a743-0b1196a509fc/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  23/1812  last calgary 2004-02 FAILED
+  CDS pwv 2004-03 (queued server-side) ...
+2026-10-02 17:19:05,007 INFO Request ID is e3a6f758-14a1-4b26-8a59-3160f752655c
+2026-10-02 17:19:05,198 INFO status has been updated to accepted
+2026-10-02 17:19:20,229 INFO status has been updated to rejected
+  pwv 2004-03 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/e3a6f758-14a1-4b26-8a59-3160f752655c/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  24/1812  last calgary 2004-03 FAILED
+  CDS pwv 2004-04 (queued server-side) ...
+2026-10-02 17:19:22,215 INFO Request ID is d97e730c-99a6-4b45-8f43-44a213d8f243
+2026-10-02 17:19:22,952 INFO status has been updated to accepted
+2026-10-02 17:19:33,844 INFO status has been updated to rejected
+  pwv 2004-04 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/d97e730c-99a6-4b45-8f43-44a213d8f243/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  25/1812  last calgary 2004-04 FAILED
+  CDS pwv 2004-05 (queued server-side) ...
+2026-10-02 17:19:36,551 INFO Request ID is f6759d5c-5aa4-4824-b10e-b23a0d34dbb7
+2026-10-02 17:19:37,400 INFO status has been updated to accepted
+2026-10-02 17:19:43,103 INFO status has been updated to rejected
+  pwv 2004-05 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/f6759d5c-5aa4-4824-b10e-b23a0d34dbb7/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  26/1812  last calgary 2004-05 FAILED
+  CDS pwv 2004-06 (queued server-side) ...
+2026-10-02 17:19:49,898 INFO Request ID is 34afc32c-4562-4592-8b1d-2fcda0f55813
+2026-10-02 17:19:50,095 INFO status has been updated to accepted
+2026-10-02 17:20:07,397 INFO status has been updated to rejected
+  pwv 2004-06 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/34afc32c-4562-4592-8b1d-2fcda0f55813/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  27/1812  last calgary 2004-06 FAILED
+  CDS pwv 2004-07 (queued server-side) ...
+2026-10-02 17:20:10,166 INFO Request ID is 5b65cd3e-7037-46f8-80d9-34025f3313ee
+2026-10-02 17:20:10,346 INFO status has been updated to accepted
+2026-10-02 17:20:27,101 INFO status has been updated to rejected
+  pwv 2004-07 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/5b65cd3e-7037-46f8-80d9-34025f3313ee/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  28/1812  last calgary 2004-07 FAILED
+  CDS pwv 2004-08 (queued server-side) ...
+2026-10-02 17:20:28,892 INFO Request ID is c586d29a-f1d5-4ea3-abde-439dc7737240
+2026-10-02 17:20:29,072 INFO status has been updated to accepted
+2026-10-02 17:20:34,845 INFO status has been updated to rejected
+  pwv 2004-08 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/c586d29a-f1d5-4ea3-abde-439dc7737240/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  29/1812  last calgary 2004-08 FAILED
+  CDS pwv 2004-09 (queued server-side) ...
+2026-10-02 17:20:38,976 INFO Request ID is f0f33f40-4a18-443b-ad17-c5e1ecbdfd60
+2026-10-02 17:20:39,444 INFO status has been updated to accepted
+2026-10-02 17:20:48,292 INFO status has been updated to rejected
+  pwv 2004-09 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/f0f33f40-4a18-443b-ad17-c5e1ecbdfd60/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  30/1812  last calgary 2004-09 FAILED
+  CDS pwv 2004-10 (queued server-side) ...
+2026-10-02 17:20:50,389 INFO Request ID is fe2fc5d8-e8bd-43c0-b467-fde7a734b5e1
+2026-10-02 17:20:50,821 INFO status has been updated to accepted
+2026-10-02 17:20:56,176 INFO status has been updated to rejected
+  pwv 2004-10 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/fe2fc5d8-e8bd-43c0-b467-fde7a734b5e1/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  31/1812  last calgary 2004-10 FAILED
+  CDS pwv 2004-11 (queued server-side) ...
+2026-10-02 17:20:59,442 INFO Request ID is a406b9fc-709f-44eb-aabd-cf4c744fb7b9
+2026-10-02 17:20:59,642 INFO status has been updated to accepted
+2026-10-02 17:21:10,586 INFO status has been updated to rejected
+  pwv 2004-11 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a406b9fc-709f-44eb-aabd-cf4c744fb7b9/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  32/1812  last calgary 2004-11 FAILED
+  CDS pwv 2004-12 (queued server-side) ...
+2026-10-02 17:21:13,850 INFO Request ID is 5140a099-4643-4ec5-9a98-8cd09a4b056f
+2026-10-02 17:21:14,705 INFO status has been updated to accepted
+2026-10-02 17:21:29,905 INFO status has been updated to rejected
+  pwv 2004-12 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/5140a099-4643-4ec5-9a98-8cd09a4b056f/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  33/1812  last calgary 2004-12 FAILED
+  CDS pwv 2005-01 (queued server-side) ...
+2026-10-02 17:21:31,715 INFO Request ID is 4710c2e1-a4bc-43e0-ab05-88f48244faef
+2026-10-02 17:21:31,998 INFO status has been updated to accepted
+2026-10-02 17:21:46,240 INFO status has been updated to rejected
+  pwv 2005-01 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/4710c2e1-a4bc-43e0-ab05-88f48244faef/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  34/1812  last calgary 2005-01 FAILED
+  CDS pwv 2005-02 (queued server-side) ...
+2026-10-02 17:21:49,527 INFO Request ID is 841b73ac-4d99-4caf-88b1-85b103ff72cd
+2026-10-02 17:21:50,701 INFO status has been updated to accepted
+2026-10-02 17:23:09,325 INFO status has been updated to rejected
+  pwv 2005-02 failed: 400 Client Error: Bad Request for url: https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/841b73ac-4d99-4caf-88b1-85b103ff72cd/results
+The job has been rejected
+Number queued requests for this dataset is temporarily limited. Please configure your scripts accordingly 
+  35/1812  last calgary 2005-02 FAILED
+  CDS pwv 2005-03 (queued server-side) ...
+2026-10-02 17:23:11,217 INFO Request ID is e1971e1a-e586-4cf3-a87e-430e40e6c459
+2026-10-02 17:23:11,421 INFO status has been updated to accepted

@@ -1,0 +1,56 @@
+
+Circular block bootstrap, 10-night blocks, 2000 replicates, seed 42
+
+city        raw    raw 95% CI   corr corrected 95% CI    (gap spec: satellite)
+calgary      54 [   46,   62]     35 [   29,   42]
+winnipeg     51 [   43,   59]     44 [   36,   51]
+edmonton     44 [   37,   52]     34 [   28,   42]
+ottawa       34 [   28,   40]     28 [   23,   34]
+vancouver    34 [   27,   41]     30 [   24,   37]
+montreal     34 [   28,   40]     27 [   22,   32]
+toronto      32 [   26,   38]     26 [   21,   32]
+halifax      26 [   22,   31]     20 [   16,   25]
+
+Corrected counts and intervals under every gap specification:
+city                  satellite           ceilometer                 west
+calgary           35 [ 29, 42]         40 [ 33, 48]*        39 [ 32, 46]*
+winnipeg          44 [ 36, 51]         44 [ 36, 51]         44 [ 36, 51] 
+edmonton          34 [ 28, 42]         33 [ 27, 41]*        32 [ 26, 39]*
+ottawa            28 [ 23, 34]         28 [ 23, 34]         28 [ 23, 34] 
+vancouver         30 [ 24, 37]         30 [ 24, 37]         30 [ 24, 37] 
+montreal          27 [ 22, 32]         28 [ 22, 33]*        27 [ 22, 32] 
+toronto           26 [ 21, 32]         25 [ 20, 31]*        26 [ 21, 32] 
+halifax           20 [ 16, 25]         20 [ 16, 25]         20 [ 16, 25] 
+  (* = this city's gap differs from the satellite specification)
+  ranking, satellite : win > cal > edm > van > ott > mon > tor > hal
+  ranking, ceilometer: win > cal > edm > van > ott > mon > tor > hal
+  ranking, west      : win > cal > edm > van > ott > mon > tor > hal
+
+Pairwise differences, same night blocks resampled at both cities:
+  calgary   - winnipeg : raw   +2.7 [ -5.2,+11.0] unresolved
+                         satellite   -7.8 [-15.8, +0.3] unresolved
+                         ceilometer  -3.1 [-11.7, +5.3] unresolved
+                         west        -4.4 [-12.7, +4.0] unresolved
+  winnipeg  - edmonton : raw   +6.6 [ -1.8,+14.5] unresolved
+                         satellite   +8.7 [ +0.7,+16.2] resolved
+                         ceilometer  +9.7 [ +1.5,+17.7] resolved
+                         west       +10.9 [ +3.0,+18.7] resolved
+  calgary   - edmonton : raw   +9.3 [ +3.5,+15.5] resolved
+                         satellite   +0.8 [ -5.7, +7.0] unresolved
+                         ceilometer  +6.6 [ -0.2,+13.5] unresolved
+                         west        +6.5 [ +0.5,+12.8] resolved
+  edmonton  - montreal : raw  +10.6 [ +2.8,+18.3] resolved
+                         satellite   +7.7 [ +0.2,+15.5] resolved
+                         ceilometer  +6.0 [ -1.5,+14.0] unresolved
+                         west        +5.4 [ -1.8,+12.8] unresolved
+
+Block-length sensitivity on the raw interval (nights/yr):
+city                blk 5         blk 10         blk 15
+calgary     [   46,   60]  [   46,   62]  [   45,   63]
+winnipeg    [   44,   58]  [   43,   59]  [   42,   60]
+edmonton    [   38,   51]  [   37,   52]  [   36,   52]
+ottawa      [   29,   40]  [   28,   40]  [   28,   41]
+vancouver   [   28,   40]  [   27,   41]  [   27,   42]
+montreal    [   28,   39]  [   28,   40]  [   28,   40]
+toronto     [   27,   38]  [   26,   38]  [   26,   38]
+halifax     [   22,   31]  [   22,   31]  [   22,   31]

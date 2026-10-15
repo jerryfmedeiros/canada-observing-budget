@@ -1,0 +1,11 @@
+Nights meeting the 4 h expected-hours bar that also hold an unbroken 4 h clear run, human station vs fully automated partner
+
+city       station  nights/yr >= bar  with run >= bar  share
+calgary    CYYC                 98.5             88.2    90%
+calgary    CYBW                115.7             98.3    85%
+edmonton   CYEG                 74.7             67.3    90%
+edmonton   CZVL                107.7             92.2    86%
+toronto    CYYZ                115.3            105.0    91%
+toronto    CYTZ                137.0            122.3    89%
+montreal   CYUL                100.5             87.7    87%
+montreal   CYHU                109.7             98.5    90%

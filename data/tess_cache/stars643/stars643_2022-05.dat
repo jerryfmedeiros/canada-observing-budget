@@ -1,0 +1,41 @@
+# Definition of the community standard for skyglow observations 1.0
+# URL: http://www.darksky.org/NSBM/sdf1.0.pdf
+# Number of header lines: 35
+# This data is released under the following license: ODbL 1.0 http://opendatacommons.org/licenses/odbl/summary/
+# Device type: TESS-W
+# Instrument ID: stars643
+# Data supplier: Unknown / Parc national de la Yamaska
+# Location name: Parc national de la Yamaska / Roxton Pond / La Haute-Yamaska / Quebec / Canada 
+# Position: 45.428368, -72.61595, 0.0
+# Local timezone: America/Toronto
+# Time Synchronization: timestamp added by MQTT subscriber
+# Moving / Stationary position: STATIONARY
+# Moving / Fixed look direction: FIXED
+# Number of channels: 1
+# Filters per channel: None
+# Measurement direction per channel: (0.0, 0.0)
+# Field of view: 17.0
+# Number of fields per line: 8
+# TESS MAC address: 98:F4:AB:B2:7B:FD
+# TESS firmware version: 1.0
+# TESS cover offset value: 0.0
+# TESS zero point: 20.34
+# Comment:  
+# Comment:
+# Comment:
+# Comment:
+# Comment:
+# Comment: 
+# Comment: MSAS = ZP - 2.5*log10(Frequency)
+# blank line 30
+# blank line 31
+# blank line 32
+# UTC Date & Time, Local Date & Time, Enclosure Temperature, Sky Temperature, Frequency, MSAS, ZP, Sequence Number
+# YYYY-MM-DDTHH:mm:ss.fff;YYYY-MM-DDTHH:mm:ss.fff;Celsius;Celsius;Hz;mag/arcsec^2;mag/arcsec^2; Multiple of Tx period
+# END OF HEADER
+2022-05-16T16:12:10.000;2022-05-16T12:12:10.000;24.58;26.29;36413.66;9.0;20.34;2
+2022-05-16T16:13:11.000;2022-05-16T12:13:11.000;24.88;26.38;32860.11;9.05;20.34;3
+2022-05-16T16:17:59.000;2022-05-16T12:17:59.000;26.19;26.27;35663.3;8.96;20.34;2
+2022-05-16T16:18:59.000;2022-05-16T12:18:59.000;26.47;26.28;35868.18;8.95;20.34;3
+2022-05-16T16:19:59.000;2022-05-16T12:19:59.000;26.73;26.39;34723.17;8.99;20.34;4
+2022-05-16T16:20:59.000;2022-05-16T12:20:59.000;27.0;27.13;28453.2;9.23;20.34;5

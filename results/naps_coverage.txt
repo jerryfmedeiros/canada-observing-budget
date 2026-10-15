@@ -1,0 +1,20 @@
+Cached NAPS PM2.5 files:
+  2020:   11471289 bytes  sha256 737745d6bf5a869192869a7522bf14b94b49826f4619c3b8cb817970f6f15faf
+  2021:   10149208 bytes  sha256 b05f0f5eac83c3ea6efbf0587c4e9d30c5795981c47611da521da28123d17d52
+  2022:   12339077 bytes  sha256 7414b3b7bb78c3d2fd2788e5fc421e724433f34f1a98e49283e59e2e138318cd
+  2023:   14824404 bytes  sha256 9d87fd544c88bb42aa16aac092838e75bff65a624ffc670e6563a9adc036535a
+  2024:    9690501 bytes  sha256 b52e88c4394a339640ce4cf99e8dc9540f2a1769d80e355b0db524d4cbc1ebea
+
+Station-days / stations / valid hours, by city and year:
+city                         2020                 2021                 2022                 2023                 2024
+calgary            1098/ 3/ 25363       1095/ 3/ 26108       1460/ 3/ 26013       1825/ 3/ 26109          0/ 0/     0
+edmonton           2196/ 6/ 50419       2190/ 6/ 43486       2190/ 5/ 42820       2555/ 5/ 45363        366/ 1/  8462
+halifax             366/ 1/  8460        365/ 1/  8722        365/ 1/  8739        365/ 1/  6375        732/ 1/  8773
+montr              4392/11/ 89815       4015/11/ 94347       4380/11/ 94978       9855/11/ 94035       4392/11/ 96124
+ottawa              366/ 1/  8726        365/ 1/  8657        730/ 1/  8752        365/ 1/  8563        366/ 1/  8633
+toronto            2196/ 6/ 51984       2190/ 6/ 51783       3650/ 6/ 51543       2190/ 6/ 48831       2196/ 6/ 51902
+vancouver          6222/17/144944       6205/17/143530       6205/17/146946       6205/17/145560       6222/17/141529
+winnipeg            732/ 2/ 16617        730/ 2/ 13726        365/ 1/  7575        730/ 2/ 12493        732/ 2/ 15569
+
+City-years with no rows at all: calgary 2024
+City-years resting on a single station: halifax 2020, ottawa 2020, halifax 2021, ottawa 2021, halifax 2022, ottawa 2022, winnipeg 2022, halifax 2023, ottawa 2023, edmonton 2024, halifax 2024, ottawa 2024

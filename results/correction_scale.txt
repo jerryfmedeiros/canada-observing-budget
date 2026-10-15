@@ -1,0 +1,25 @@
+1. Mean removed per night (pp) and counts per year under each correction shape
+
+city         gap | removed: measured  uniform  day-eq | obs: meas  unif  d-eq | good: meas  unif  d-eq
+calgary     18.8 |               7.3     11.0     9.7 |      76.0  68.0  64.3 |       65.3  60.0  55.2
+vancouver    9.0 |               2.4      4.4     3.0 |      77.3  73.2  74.5 |       48.3  47.2  47.3
+edmonton    19.5 |               6.2      9.3     8.2 |      58.5  51.8  48.2 |       49.2  44.7  40.2
+winnipeg    13.6 |               4.7      7.9     6.3 |      91.2  86.7  85.0 |       69.8  67.8  65.0
+toronto     13.7 |               4.5      7.5     5.9 |      98.3  86.8  92.3 |       58.3  54.0  55.3
+ottawa      10.4 |               3.4      5.2     4.2 |      81.5  76.8  77.5 |       55.5  53.3  52.7
+montreal    15.5 |               4.9      8.1     6.5 |      84.8  76.5  76.3 |       56.3  53.8  50.7
+halifax     12.3 |               3.8      5.7     4.7 |      77.0  70.5  70.5 |       54.7  51.8  50.3
+
+Good-night order:
+  ceilometer     : win 70 > cal 65 > tor 58 > mon 56 > ott 56 > hal 55 > edm 49 > van 48
+  uniform        : win 68 > cal 60 > tor 54 > mon 54 > ott 53 > hal 52 > van 47 > edm 45
+  day_equivalent : win 65 > tor 55 > cal 55 > ott 53 > mon 51 > hal 50 > van 47 > edm 40
+
+2b. Observer's excess at the same ceilometer sky (units grouped by the CEILOMETER fraction), pooled over the four pairs
+
+  ceilometer fraction   n night  human night  n day  human day  excess pp
+  0                        2510         1.6%   1883       0.4%       +1.2
+  0-1/3                    1518        13.5%   2053       5.9%       +7.5
+  1/3-2/3                  1227        35.5%   1652      18.5%      +17.0
+  2/3-1                    1008        60.5%   1603      34.2%      +26.3
+  1                        1654        85.3%   1564      62.6%      +22.7

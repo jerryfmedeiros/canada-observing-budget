@@ -1,0 +1,23 @@
+{
+  "site": "ottawa",
+  "human": "CYOW",
+  "auto": null,
+  "years": [
+    2020,
+    2025
+  ],
+  "night_solar_alt_max_deg": -12.0,
+  "stations": [
+    {
+      "station": "CYOW",
+      "role": "human",
+      "n_reports": 63422,
+      "pct_auto_all": 0.0,
+      "night_n": 25187,
+      "night_pct_auto": 0.0,
+      "night_usable_pct": 25.1,
+      "qualifies": true,
+      "verdict": "OK human-augmented"
+    }
+  ]
+}

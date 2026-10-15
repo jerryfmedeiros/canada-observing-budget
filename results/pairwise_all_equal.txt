@@ -1,0 +1,47 @@
+Good nights/yr, equal gap (14.10 pp, the satellite mean) at every city, 20000 replicates; 28 pairs, Bonferroni tail 0.089% a side
+
+  win 70  cal 69  tor 58  mon 57  ott 53  hal 53  edm 52  van 46
+
+pair                     diff     95% interval  adjusted interval  resolved
+winnipeg - calgary       +0.7 [  -8.8, +10.3] [ -14.0, +15.7]  no
+winnipeg - toronto      +11.5 [  +2.2, +21.0] [  -3.2, +26.2]  95% only
+winnipeg - montreal     +12.8 [  +3.5, +22.0] [  -2.0, +28.0]  95% only
+winnipeg - ottawa       +16.9 [  +7.8, +26.0] [  +2.2, +31.3]  adjusted
+winnipeg - halifax      +16.5 [  +7.0, +26.2] [  +1.6, +31.7]  adjusted
+winnipeg - edmonton     +17.8 [  +9.0, +27.0] [  +3.8, +32.7]  adjusted
+winnipeg - vancouver    +23.3 [ +13.8, +32.7] [  +8.0, +38.5]  adjusted
+calgary - toronto       +10.9 [  +0.8, +20.8] [  -4.8, +27.2]  95% only
+calgary - montreal      +12.1 [  +2.7, +21.7] [  -2.8, +27.5]  95% only
+calgary - ottawa        +16.2 [  +6.7, +25.8] [  +1.3, +31.8]  adjusted
+calgary - halifax       +15.9 [  +6.5, +25.3] [  +0.8, +32.0]  adjusted
+calgary - edmonton      +17.2 [ +10.0, +24.5] [  +6.0, +29.0]  adjusted
+calgary - vancouver     +22.6 [ +13.5, +31.7] [  +7.8, +37.5]  adjusted
+toronto - montreal       +1.3 [  -6.2,  +8.7] [ -10.5, +13.0]  no
+toronto - ottawa         +5.4 [  -1.2, +11.8] [  -4.8, +15.8]  no
+toronto - halifax        +5.0 [  -3.5, +13.5] [  -8.7, +18.7]  no
+toronto - edmonton       +6.3 [  -3.5, +16.0] [  -9.9, +21.9]  no
+toronto - vancouver     +11.8 [  +2.3, +21.2] [  -3.2, +26.7]  95% only
+montreal - ottawa        +4.1 [  -1.0,  +9.3] [  -4.3, +12.3]  no
+montreal - halifax       +3.8 [  -3.5, +11.2] [  -8.2, +15.3]  no
+montreal - edmonton      +5.1 [  -4.2, +14.2] [ -10.2, +20.3]  no
+montreal - vancouver    +10.5 [  +1.3, +19.7] [  -4.5, +25.2]  95% only
+ottawa - halifax         -0.4 [  -8.0,  +7.2] [ -13.0, +11.5]  no
+ottawa - edmonton        +1.0 [  -8.5, +10.3] [ -14.2, +16.2]  no
+ottawa - vancouver       +6.4 [  -2.8, +15.5] [  -8.3, +21.3]  no
+halifax - edmonton       +1.3 [  -7.8, +10.3] [ -13.5, +16.2]  no
+halifax - vancouver      +6.7 [  -2.7, +16.2] [  -8.7, +21.9]  no
+edmonton - vancouver     +5.4 [  -3.0, +13.7] [  -8.5, +18.5]  no
+
+'**' resolved after the adjustment, '*' at 95% only, '.' not resolved
+        win  cal  tor  mon  ott  hal  edm  van
+  win     -    .    *    *   **   **   **   **
+  cal     .    -    *    *   **   **   **   **
+  tor     *    *    -    .    .    .    .    *
+  mon     *    *    .    -    .    .    .    *
+  ott    **   **    .    .    -    .    .    .
+  hal    **   **    .    .    .    -    .    .
+  edm    **   **    .    .    .    .    -    .
+  van    **   **    *    *    .    .    .    -
+
+resolved at 95%: 14 of 28; after the adjustment: 8 of 28
+adjusted: win > ott; win > hal; win > edm; win > van; cal > ott; cal > hal; cal > edm; cal > van

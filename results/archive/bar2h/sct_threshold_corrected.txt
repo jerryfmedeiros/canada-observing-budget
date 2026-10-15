@@ -1,0 +1,33 @@
+Corrected: okta<=2 with the satellite gap, okta<=4 with its own (sct_gap.py)
+
+OBSERVABLE nights/yr:
+city         SKC+FEW (paper)      +SCT (loose)   change
+toronto                142.0             177.3     +25%
+ottawa                 129.5             168.2     +30%
+montreal               129.3             159.3     +23%
+winnipeg               128.5             160.2     +25%
+halifax                114.3             146.7     +28%
+vancouver              112.8             138.3     +23%
+calgary                104.0             137.3     +32%
+edmonton                88.2             115.3     +31%
+Ranking:
+  SKC+FEW (paper)  : tor > ott > mon > win > hal > van > cal > edm
+  +SCT (loose)     : tor > ott > win > mon > hal > van > cal > edm
+
+GREAT nights/yr:
+city         SKC+FEW (paper)      +SCT (loose)   change
+winnipeg                58.5              72.8     +25%
+calgary                 56.0              69.3     +24%
+edmonton                50.2              66.7     +33%
+ottawa                  41.8              49.2     +18%
+vancouver               41.3              50.2     +21%
+montreal                39.8              47.2     +18%
+toronto                 36.2              43.5     +20%
+halifax                 31.7              38.2     +21%
+Ranking:
+  SKC+FEW (paper)  : win > cal > edm > ott > van > mon > tor > hal
+  +SCT (loose)     : win > cal > edm > van > ott > mon > tor > hal
+
+Counting SCT raises the observable count by 27% on average.
+  observable ordering unchanged at all eight positions: False
+  great-night podium unchanged: True (calgary, edmonton, winnipeg)

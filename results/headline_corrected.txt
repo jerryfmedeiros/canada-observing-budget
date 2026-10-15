@@ -1,0 +1,119 @@
+Corrected budget (gap spec: satellite, measured ceilometer shape)
+
+city         gap  clr-h  (raw)   obs (raw) -smoke -transp  good    good CI  conv  -jet lowjet  lowjet CI (raw) best (good)
+winnipeg    13.6    825    958    91   104    2.2    19.2    70 [ 61, 80]    77%  25.0     45 [ 38, 52]    51 Mar, Feb
+calgary     18.8    683    881    76    98    1.0     9.7    65 [ 57, 74]    86%  22.7     43 [ 36, 50]    54 Oct, Jan
+toronto     13.7    828    969    98   115    1.5    38.5    58 [ 51, 66]    59%  29.5     29 [ 24, 35]    32 Oct, Mar
+montreal    15.5    776    926    85   100    0.2    28.3    56 [ 49, 64]    66%  27.8     28 [ 23, 34]    34 Oct, Mar
+ottawa      10.4    750    853    82    93    0.2    25.8    56 [ 48, 64]    68%  26.0     30 [ 24, 36]    34 Mar, Oct
+halifax     12.3    672    791    77    90    0.0    22.3    55 [ 48, 63]    71%  32.8     22 [ 18, 26]    26 Oct, Mar
+edmonton    19.5    508    673    58    75    2.0     7.3    49 [ 42, 57]    84%  13.3     36 [ 30, 43]    44 Oct, Sep
+vancouver    9.0    684    754    77    84    0.8    28.2    48 [ 40, 57]    63%  17.2     31 [ 24, 38]    34 Apr, Mar
+
+Low-jet ranking: winnipeg > calgary > edmonton > vancouver > ottawa > toronto > montreal > halifax
+
+Pairwise corrected differences (shared night blocks):
+  calgary   - winnipeg  good    -5.0 [-14.0, +4.8] unresolved
+  calgary   - winnipeg  lowjet  -2.1 [ -9.5, +5.7] unresolved
+  winnipeg  - toronto   good   +11.4 [ +1.8,+20.7] resolved
+  winnipeg  - toronto   lowjet +15.9 [ +7.5,+24.5] resolved
+  calgary   - toronto   good    +6.4 [ -3.3,+16.2] unresolved
+  calgary   - toronto   lowjet +13.8 [ +5.8,+21.7] resolved
+  edmonton  - vancouver good    +0.8 [ -7.7, +8.8] unresolved
+  edmonton  - vancouver lowjet  +4.6 [ -2.5,+11.3] unresolved
+  halifax   - vancouver good    +6.4 [ -3.8,+16.2] unresolved
+  halifax   - vancouver lowjet  -9.5 [-17.5, -1.8] resolved
+  edmonton  - montreal  good    -7.2 [-16.3, +2.3] unresolved
+  edmonton  - montreal  lowjet  +7.6 [ +0.5,+14.8] resolved
+  edmonton  - halifax   good    -5.6 [-14.7, +3.5] unresolved
+  edmonton  - halifax   lowjet +14.1 [ +7.2,+21.7] resolved
+  edmonton  - ottawa    good    -6.6 [-16.7, +3.3] unresolved
+  edmonton  - ottawa    lowjet  +6.1 [ -1.8,+14.3] unresolved
+  halifax   - toronto   good    -4.0 [-13.0, +4.3] unresolved
+  halifax   - toronto   lowjet  -7.2 [-13.2, -1.3] resolved
+  winnipeg  - edmonton  good   +21.0 [+11.7,+30.3] resolved
+  winnipeg  - edmonton  lowjet  +9.0 [ +1.2,+16.2] resolved
+  calgary   - edmonton  good   +16.0 [ +8.5,+23.3] resolved
+  calgary   - edmonton  lowjet  +6.9 [ +1.2,+13.0] resolved
+  calgary   - vancouver good   +16.8 [ +8.3,+26.0] resolved
+  calgary   - vancouver lowjet +11.5 [ +4.7,+18.8] resolved
+  calgary   - ottawa    good    +9.5 [ -0.0,+19.5] unresolved
+  calgary   - ottawa    lowjet +13.0 [ +5.3,+20.8] resolved
+  calgary   - montreal  good    +8.9 [ -0.5,+18.2] unresolved
+  calgary   - montreal  lowjet +14.4 [ +7.2,+21.7] resolved
+  edmonton  - toronto   good    -9.6 [-19.2, -0.2] resolved
+  edmonton  - toronto   lowjet  +6.9 [ -1.0,+14.8] unresolved
+  vancouver - toronto   good   -10.4 [-19.5, -1.0] resolved
+  vancouver - toronto   lowjet  +2.3 [ -6.2,+10.7] unresolved
+  edmonton  - halifax   good    -5.6 [-14.7, +3.5] unresolved
+  edmonton  - halifax   lowjet +14.1 [ +7.2,+21.7] resolved
+  winnipeg  - vancouver good   +21.8 [+12.5,+31.5] resolved
+  winnipeg  - vancouver lowjet +13.6 [ +5.2,+21.8] resolved
+  winnipeg  - ottawa    good   +14.4 [ +4.7,+24.2] resolved
+  winnipeg  - ottawa    lowjet +15.1 [ +7.0,+23.7] resolved
+  winnipeg  - montreal  good   +13.8 [ +4.8,+22.8] resolved
+  winnipeg  - montreal  lowjet +16.5 [ +8.5,+24.7] resolved
+
+Low-jet nights under every gap specification, and the top pairs:
+  satellite  win 45  cal 43  edm 36  van 31  ott 30  tor 29  mon 28  hal 22
+      win-cal  +2.1 [ -5.7, +9.5] unresolved
+      win-tor +15.9 [ +7.5,+24.5] resolved
+      cal-tor +13.8 [ +5.8,+21.7] resolved
+  ceilometer win 45  cal 44  edm 36  van 31  ott 30  mon 29  tor 28  hal 22
+      win-cal  +1.2 [ -7.0, +9.0] unresolved
+      win-tor +16.4 [ +8.0,+25.0] resolved
+      cal-tor +15.2 [ +7.2,+23.7] resolved
+  east       win 45  cal 41  edm 37  van 31  ott 30  tor 29  mon 28  hal 22
+      win-cal  +3.8 [ -4.0,+11.5] unresolved
+      win-tor +15.9 [ +7.5,+24.5] resolved
+      cal-tor +12.1 [ +4.2,+20.2] resolved
+
+Good nights at other bars (corrected), moonless share at 4 h, July/August observable:
+  winnipeg   2h  92.2  3h  80.7  4h  69.8  6h  51.3  moonless  32.0 ( 46%)  Jul obs  0.0  Aug obs 10.8  Jul good 0.0  Aug good 0.8
+  calgary    2h  92.7  3h  75.8  4h  65.3  6h  42.7  moonless  30.5 ( 47%)  Jul obs  0.0  Aug obs  8.5  Jul good 0.0  Aug good 2.7
+  toronto    2h  80.5  3h  70.7  4h  58.3  6h  38.5  moonless  26.3 ( 45%)  Jul obs 11.5  Aug obs 13.2  Jul good 0.5  Aug good 1.8
+  montreal   2h  77.7  3h  67.7  4h  56.3  6h  38.0  moonless  26.7 ( 47%)  Jul obs  4.2  Aug obs 11.2  Jul good 0.0  Aug good 1.3
+  ottawa     2h  81.0  3h  69.0  4h  55.5  6h  33.2  moonless  25.5 ( 46%)  Jul obs  4.2  Aug obs 10.3  Jul good 0.2  Aug good 1.0
+  halifax    2h  78.2  3h  68.8  4h  54.7  6h  33.3  moonless  25.8 ( 47%)  Jul obs  4.0  Aug obs  9.7  Jul good 0.2  Aug good 1.7
+  edmonton   2h  66.7  3h  56.8  4h  49.2  6h  30.5  moonless  24.5 ( 50%)  Jul obs  0.0  Aug obs  6.2  Jul good 0.0  Aug good 1.3
+  vancouver  2h  63.7  3h  56.2  4h  48.3  6h  32.2  moonless  21.7 ( 45%)  Jul obs  0.0  Aug obs 13.8  Jul good 0.0  Aug good 0.3
+
+Good nights by year (corrected):
+  winnipeg   2020: 64 2021: 78 2022: 68 2023: 77 2024: 58 2025: 74   min 58 max 78
+  calgary    2020: 65 2021: 76 2022: 60 2023: 75 2024: 56 2025: 60   min 56 max 76
+  toronto    2020: 53 2021: 57 2022: 58 2023: 58 2024: 63 2025: 61   min 53 max 63
+  montreal   2020: 60 2021: 49 2022: 67 2023: 54 2024: 55 2025: 53   min 49 max 67
+  ottawa     2020: 58 2021: 52 2022: 65 2023: 56 2024: 45 2025: 57   min 45 max 65
+  halifax    2020: 54 2021: 57 2022: 51 2023: 57 2024: 51 2025: 58   min 51 max 58
+  edmonton   2020: 41 2021: 65 2022: 51 2023: 52 2024: 38 2025: 48   min 38 max 65
+  vancouver  2020: 43 2021: 55 2022: 42 2023: 44 2024: 48 2025: 58   min 42 max 58
+
+Clear-dark hours per night by season (corrected):
+  winnipeg   win 2.96 spr 2.05 sum 1.69 aut 2.90
+  calgary    win 2.26 spr 1.47 sum 1.29 aut 2.90
+  toronto    win 1.44 spr 2.19 sum 2.37 aut 3.06
+  montreal   win 1.87 spr 1.95 sum 1.71 aut 2.97
+  ottawa     win 1.87 spr 1.92 sum 1.64 aut 2.79
+  halifax    win 1.74 spr 1.64 sum 1.36 aut 2.62
+  edmonton   win 1.61 spr 1.03 sum 0.77 aut 2.42
+  vancouver  win 1.72 spr 1.76 sum 1.41 aut 2.59
+
+Good nights by month (corrected):
+  winnipeg    7.7 11.2 11.5  8.5  1.5  0.0  0.0  0.8  4.7  8.5  7.0  8.5
+  calgary     8.3  6.3  7.0  8.3  0.8  0.0  0.0  2.7  7.5 10.2  7.8  6.3
+  toronto     3.5  5.0  8.2  7.2  7.5  0.8  0.5  1.8  5.0  9.0  5.7  4.2
+  montreal    5.7  6.2  7.7  6.7  4.5  0.0  0.0  1.3  3.7  8.0  7.2  5.5
+  ottawa      6.2  6.7  8.0  6.7  5.2  0.0  0.2  1.0  4.2  7.5  5.2  4.8
+  halifax     4.5  5.7  6.7  6.0  5.2  0.0  0.2  1.7  4.7  8.0  6.3  5.8
+  edmonton    5.3  4.7  6.2  5.3  0.0  0.0  0.0  1.3  6.8  8.3  6.2  5.0
+  vancouver   4.8  6.2  6.8  8.8  2.0  0.0  0.0  0.3  3.8  5.5  4.8  5.2
+
+Clear-dark hours per night by month (corrected), with the peak month(s):
+  winnipeg   2.57 3.73 3.17 1.95 1.03  nan 0.75 2.63 3.44 2.90 2.38 2.64   peak 2
+  calgary    2.57 2.06 2.01 1.86 0.55  nan 0.43 2.15 3.07 3.07 2.54 2.12   peak 9/10
+  toronto    1.24 1.85 2.37 2.04 2.17 1.62 2.50 2.96 3.63 3.27 2.27 1.25   peak 9
+  montreal   1.82 2.11 2.16 2.08 1.61 1.14 1.52 2.46 3.45 3.07 2.39 1.71   peak 9
+  ottawa     2.03 2.09 2.10 1.98 1.69 1.06 1.55 2.28 3.25 3.09 2.01 1.51   peak 9
+  halifax    1.34 2.05 1.84 1.61 1.46 0.83 1.09 2.15 2.88 2.87 2.08 1.87   peak 9/10
+  edmonton   1.73 1.42 1.59 1.25 0.26  nan 0.01 1.54 2.67 2.50 2.07 1.66   peak 9
+  vancouver  1.64 1.84 1.98 2.13 1.18 0.00 1.49 2.70 3.22 2.88 1.68 1.70   peak 9

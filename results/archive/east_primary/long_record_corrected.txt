@@ -1,0 +1,37 @@
+
+EXCLUDED years (inhomogeneous at one or more stations): [2000]
+
+Observable nights/yr: 2001-2025 (25 yr) vs the 2020-2025 study window (20 rolling 6-yr windows)
+
+city       long-term   study   diff  study rank    best..worst window
+calgary           74      72     -2       13/20  84..67
+vancouver         68      77     +9        1/20  77..59
+edmonton          54      61     +7        1/20  61..43
+winnipeg          95      91     -4       14/20  104..88
+toronto           98      98     +1       11/20  104..88
+ottawa            93      82    -12       20/20  101..82
+montreal          88      85     -3       17/20  92..83
+halifax           84      77     -7       13/20  95..72
+
+Every study-window mean sits within 12 nights of its long-term mean (within 6 at 4 cities).
+  ottawa       -12 nights vs long-term   (WORST of its 20)
+  vancouver     +9 nights vs long-term   (BEST of its 20)
+  halifax       -7 nights vs long-term   (rank 13 of 20)
+  edmonton      +7 nights vs long-term   (BEST of its 20)
+  winnipeg      -4 nights vs long-term   (rank 14 of 20)
+  montreal      -3 nights vs long-term   (rank 17 of 20)
+  calgary       -2 nights vs long-term   (rank 13 of 20)
+  toronto       +1 nights vs long-term   (rank 11 of 20)
+
+FEW cloud-group share by station, dropped year(s) [2000] vs 2001-2005:
+city        FEW% dropped  FEW% after   obs dropped obs 2001-2005  deficit
+calgary             0.1%       20.5%            49            71      -22
+vancouver           0.2%       15.8%            38            66      -28
+edmonton            0.2%       18.1%            33            60      -27
+winnipeg           18.5%       17.2%           110            99      +11
+toronto             0.1%       17.7%            49           100      -51
+ottawa             15.4%       18.5%            90            99       -9
+montreal            0.0%       18.1%            44            94      -50
+halifax             0.0%       13.5%            56            90      -34
+  6 of 8 stations code FEW in under 0.2% of their 2000 reports, against 14-21% over 2001-2005;
+  their observable counts fall 22-51 nights below their 2001-2005 means.

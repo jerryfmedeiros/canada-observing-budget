@@ -1,0 +1,10 @@
+# Artifact (pp) by human-reported night usable fraction, pooled over the four
+# human/ceilometer pairs. Written by correction_shape.py; read by nights.py.
+# The last three columns (day mean human fraction, ceilometer night and day
+# usable fractions) let correction_scale.py map between the two scales.
+bin,n_night,mean_human_fraction,artifact_pp,mean_human_day,auto_night,auto_day
+0,3469,0.0000,12.48,0.0000,0.1100,0.2347
+0-1/3,1215,0.1711,17.91,0.1586,0.3018,0.4810
+1/3-2/3,1062,0.4697,17.05,0.4713,0.5619,0.7324
+2/3-1,809,0.7823,11.83,0.7961,0.7795,0.8978
+1,1362,1.0000,0.82,1.0000,0.9572,0.9654

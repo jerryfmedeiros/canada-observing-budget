@@ -1,0 +1,13 @@
+city        good  radiance  x natural
+winnipeg      70     125.4       502x
+calgary       65      92.7       371x
+toronto       58      99.8       399x
+montreal      56     111.4       445x
+ottawa        56      64.4       258x
+halifax       55      45.5       182x
+edmonton      49     114.9       460x
+vancouver     48      55.6       222x
+
+radiance range: 45-125 nW/cm2/sr (182-502x natural; all bright-urban/suburban)
+brightest: winnipeg  darkest: halifax
+Spearman(corrected good nights, radiance) = +0.47  (n = 8; |rho| >= 0.74 needed for p < 0.05)

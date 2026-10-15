@@ -1,0 +1,73 @@
+site         raw corrected   great raw great corr
+calgary       98        61          54         35
+vancouver     84        73          34         30
+edmonton      75        56          44         34
+winnipeg     104        87          51         44
+toronto      115        87          32         26
+ottawa        93        77          34         28
+montreal     100        76          34         27
+halifax       90        70          26         20
+
+Moonless-dark obs>=bar (raw -> dark-stratum corrected):
+  calgary       49 ->    26  (-24)
+  vancouver     37 ->    32  (-6)
+  edmonton      37 ->    27  (-10)
+  winnipeg      49 ->    37  (-11)
+  toronto       50 ->    35  (-15)
+  ottawa        41 ->    32  (-9)
+  montreal      46 ->    32  (-14)
+  halifax       40 ->    31  (-10)
+
+Ranking by corrected great nights:
+  winnipeg   great 44 (raw 51); obs>=bar 87 (raw 104); moonless 37 (raw 49)
+  calgary    great 35 (raw 54); obs>=bar 61 (raw 98); moonless 26 (raw 49)
+  edmonton   great 34 (raw 44); obs>=bar 56 (raw 75); moonless 27 (raw 37)
+  vancouver  great 30 (raw 34); obs>=bar 73 (raw 84); moonless 32 (raw 37)
+  ottawa     great 28 (raw 34); obs>=bar 77 (raw 93); moonless 32 (raw 41)
+  montreal   great 27 (raw 34); obs>=bar 76 (raw 100); moonless 32 (raw 46)
+  toronto    great 26 (raw 32); obs>=bar 87 (raw 115); moonless 35 (raw 50)
+  halifax    great 20 (raw 26); obs>=bar 70 (raw 90); moonless 31 (raw 40)
+
+Corrected great nights under each gap specification:
+city         raw   satellite  ceilometer        west
+calgary       54         35          40*         39* 
+vancouver     34         30          30          30  
+edmonton      44         34          33*         32* 
+winnipeg      51         44          44          44  
+toronto       32         26          25*         26  
+ottawa        34         28          28          28  
+montreal      34         27          28*         27  
+halifax       26         20          20          20  
+  (* = this city's gap differs from the satellite specification)
+  ranking, satellite : win > cal > edm > van > ott > mon > tor > hal
+  ranking, ceilometer: win > cal > edm > van > ott > mon > tor > hal
+  ranking, west      : win > cal > edm > van > ott > mon > tor > hal
+
+Zero-floor engagement (share of nights with any clear dark sky):
+  vancouver    4.4%
+  ottawa       7.5%
+  winnipeg     8.0%
+  toronto      9.3%
+  halifax      9.3%
+  montreal    11.9%
+  edmonton    17.6%
+  calgary     19.5%
+  range: 4% (vancouver) to 20% (calgary)
+
+Doubling the vancouver gap (9.0 -> 18.0 pp):
+  great nights     30 -> 28
+  obs>=bar nights   73 -> 63
+
+Correction SHAPE: uniform vs report-level (same annual amount removed):
+city        uniform   report  delta
+calgary          35       44     +9
+vancouver        30       32     +2
+edmonton         34       38     +4
+winnipeg         44       46     +2
+toronto          26       30     +4
+ottawa           28       32     +3
+montreal         27       30     +2
+halifax          20       23     +3
+  largest move: calgary 9 nights
+  ranking, uniform: win > cal > edm > van > ott > mon > tor > hal
+  ranking, report : win > cal > edm > van > ott > tor > mon > hal

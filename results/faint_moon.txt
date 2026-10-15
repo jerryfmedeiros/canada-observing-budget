@@ -1,0 +1,24 @@
+Crediting moon-up hours up to 25% illuminated (Krisciunas & Schaefer 1991 zenith model, k=0.2, V_dark=21.6)
+
+city        mnl good  faint good    d |  mnl obs faint obs    d | worst moon nL
+calgary         41.8        44.7 +2.8 |     49.3      52.7 +3.3 |          35.5
+vancouver       25.2        26.3 +1.2 |     37.0      40.5 +3.5 |          35.1
+edmonton        31.3        33.3 +2.0 |     37.0      39.3 +2.3 |          34.2
+winnipeg        37.3        38.2 +0.8 |     48.7      50.5 +1.8 |          33.9
+toronto         32.3        33.7 +1.3 |     50.2      53.2 +3.0 |          37.3
+ottawa          29.2        31.3 +2.2 |     40.8      44.2 +3.3 |          37.0
+montreal        32.7        34.2 +1.5 |     45.8      48.5 +2.7 |          37.1
+halifax         31.8        34.3 +2.5 |     40.3      43.7 +3.3 |          37.7
+
+largest change, moonless GOOD nights:     2.83 nights/yr
+largest change, moonless OBSERVABLE nights: 3.50 nights/yr
+
+Worst Moon contribution over all credited moon-up time: 37.7 nL.
+  added zenith sky, by what it is added to:
+    baseline V=21.6 mag/arcsec^2  ->  +0.43 mag
+    baseline V=20.5 mag/arcsec^2  ->  +0.18 mag
+    baseline V=19.5 mag/arcsec^2  ->  +0.07 mag
+    baseline V=18.5 mag/arcsec^2  ->  +0.03 mag
+  ranking, Moon strictly below horizon: cal > win > mon > tor > hal > edm > ott > van
+  ranking, faint-Moon credited        : cal > win > hal > mon > tor > edm > ott > van
+  ordering unchanged: False

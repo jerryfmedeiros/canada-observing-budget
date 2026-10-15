@@ -1,0 +1,16 @@
+GOOD nights/yr by LONGEST CONTIGUOUS clear run (>= H h):
+city         >=2h   >=3h   >=4h   >=5h   >=6h
+calgary       123     97     80     60     49
+winnipeg      111     91     79     67     54
+toronto        98     83     68     53     40
+montreal       96     81     62     52     42
+halifax        96     78     62     50     37
+ottawa         92     78     63     50     37
+edmonton       91     73     60     47     37
+vancouver      72     62     51     42     32
+Ranking (contiguous):
+  >= 2h: cal > win > tor > mon > hal > ott > edm > van
+  >= 3h: cal > win > tor > mon > hal > ott > edm > van
+  >= 4h: cal > win > tor > ott > hal > mon > edm > van
+  >= 5h: win > cal > tor > mon > ott > hal > edm > van
+  >= 6h: win > cal > mon > tor > hal > ott > edm > van

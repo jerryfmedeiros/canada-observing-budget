@@ -1,0 +1,12 @@
+Nighttime (Sun <= -12 deg) METAR reports at the primary stations, 2020-2025
+
+city       station  reports  AUTO   share
+calgary    CYYC       22866     0   0.00%
+vancouver  CYVR       24754     0   0.00%
+edmonton   CYEG       23662     0   0.00%
+winnipeg   CYWG       23264     0   0.00%
+toronto    CYYZ       24161     0   0.00%
+ottawa     CYOW       25187     0   0.00%
+montreal   CYUL       24206     0   0.00%
+halifax    CYHZ       29595    11   0.04%
+all                  197695    11   0.01%

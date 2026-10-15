@@ -1,0 +1,102 @@
+
+EXCLUDED years (inhomogeneous at one or more stations): [2000]
+
+Observable nights/yr: 2001-2025 (25 yr) vs the 2020-2025 study window (20 rolling 6-yr windows)
+
+city       long-term   study   diff  study rank    best..worst window
+calgary           78      76     -2       13/20  88..71
+vancouver         68      77     +9        1/20  77..59
+edmonton          52      58     +7        1/20  58..41
+winnipeg          95      91     -4       14/20  104..88
+toronto           98      98     +1       11/20  104..88
+ottawa            93      82    -12       20/20  101..82
+montreal          88      85     -3       17/20  92..83
+halifax           84      77     -7       13/20  95..72
+
+Every study-window mean sits within 12 nights of its long-term mean (within 6 at 4 cities).
+  ottawa       -12 nights vs long-term   (WORST of its 20)
+  vancouver     +9 nights vs long-term   (BEST of its 20)
+  edmonton      +7 nights vs long-term   (BEST of its 20)
+  halifax       -7 nights vs long-term   (rank 13 of 20)
+  winnipeg      -4 nights vs long-term   (rank 14 of 20)
+  montreal      -3 nights vs long-term   (rank 17 of 20)
+  calgary       -2 nights vs long-term   (rank 13 of 20)
+  toronto       +1 nights vs long-term   (rank 11 of 20)
+
+Observable nights: order of the cities, study window: tor 98 > win 91 > mon 85 > ott 82 > van 77 > hal 77 > cal 76 > edm 58
+Observable nights: order of the cities, 2001-2025 mean: tor 98 > win 95 > ott 93 > mon 88 > hal 84 > cal 78 > van 68 > edm 52
+
+Rank of each city in each of the 20 windows (1 = most nights):
+city       01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20   range  study  long-term
+toronto     1  1  1  1  1  2  2  2  1  1  1  1  3  2  3  3  2  1  1  1   1-3      1          1
+winnipeg    2  3  2  2  2  1  1  1  2  2  3  4  2  4  4  2  1  2  2  2   1-4      2          2
+montreal    5  5  5  5  4  6  6  5  5  4  4  3  4  3  2  4  4  4  3  3   2-6      3          4
+ottawa      3  2  3  3  3  3  3  3  3  3  2  2  1  1  1  1  3  3  4  4   1-4      4          3
+vancouver   7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  6  6  5  5   5-7      5          7
+halifax     4  4  4  4  5  4  4  6  6  6  5  5  5  5  5  5  5  7  6  6   4-7      6          5
+calgary     6  6  6  6  6  5  5  4  4  5  6  6  6  6  6  6  7  5  7  7   4-7      7          6
+edmonton    8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8   8-8      8          8
+
+Pairs (study-window order) and the share of the 20 windows that keep it:
+  kept in every window: 17 of 28 pairs
+  toronto    > winnipeg   in 14 of 20 windows   (study +7, long-term +3)
+  toronto    > montreal   in 19 of 20 windows   (study +14, long-term +10)
+  toronto    > ottawa     in 15 of 20 windows   (study +17, long-term +4)
+  winnipeg   > montreal   in 17 of 20 windows   (study +6, long-term +7)
+  winnipeg   > ottawa     in 13 of 20 windows   (study +10, long-term +2)
+  montreal   > ottawa     in  2 of 20 windows   (study +3, long-term -5)
+  montreal   > halifax    in 14 of 20 windows   (study +8, long-term +5)
+  montreal   > calgary    in 16 of 20 windows   (study +9, long-term +10)
+  vancouver  > halifax    in  3 of 20 windows   (study +0, long-term -16)
+  vancouver  > calgary    in  3 of 20 windows   (study +1, long-term -10)
+  halifax    > calgary    in 16 of 20 windows   (study +1, long-term +6)
+
+==============================================================================
+GOOD nights/yr (observable, FU-clean, median dark PWV <= 15 mm), 2001-2025
+  calgary    long-term  71.0  study  65.5  diff  -5.5  study rank 19/20  windows 65..81
+  vancouver  long-term  44.9  study  48.3  diff  +3.5  study rank 3/20  windows 40..49
+  edmonton   long-term  47.3  study  50.2  diff  +2.9  study rank 4/20  windows 38..52
+  winnipeg   long-term  76.4  study  70.5  diff  -5.9  study rank 18/20  windows 68..85
+  toronto    long-term  63.4  study  59.0  diff  -4.4  study rank 16/20  windows 55..71
+  ottawa     long-term  68.0  study  55.5  diff -12.5  study rank 20/20  windows 56..78
+  montreal   long-term  62.1  study  56.5  diff  -5.6  study rank 20/20  windows 56..68
+  halifax    long-term  63.5  study  54.7  diff  -8.8  study rank 18/20  windows 54..74
+
+Good nights: order of the cities, study window: win 70 > cal 66 > tor 59 > mon 56 > ott 56 > hal 55 > edm 50 > van 48
+Good nights: order of the cities, 2001-2025 mean: win 76 > cal 71 > ott 68 > hal 63 > tor 63 > mon 62 > edm 47 > van 45
+
+Rank of each city in each of the 20 windows (1 = most nights):
+city       01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20   range  study  long-term
+winnipeg    1  1  1  1  1  1  1  1  2  2  2  1  1  1  1  1  1  1  1  1   1-2      1          1
+calgary     4  4  4  3  3  2  2  2  1  1  1  2  2  2  3  2  2  2  2  2   1-4      2          2
+toronto     6  5  5  5  4  5  5  5  4  4  4  4  5  5  5  5  5  5  3  3   3-6      3          5
+montreal    5  6  6  6  6  6  6  6  6  6  6  5  4  4  4  4  4  4  5  4   4-6      4          6
+ottawa      2  2  2  2  2  3  3  3  3  3  3  3  3  3  2  3  3  3  4  5   2-5      5          3
+halifax     3  3  3  4  5  4  4  4  5  5  5  6  6  6  6  6  6  6  6  6   3-6      6          4
+edmonton    7  7  7  7  7  7  7  7  7  8  8  8  8  8  8  8  8  8  8  7   7-8      7          7
+vancouver   8  8  8  8  8  8  8  8  8  7  7  7  7  7  7  7  7  7  7  8   7-8      8          8
+
+Pairs (study-window order) and the share of the 20 windows that keep it:
+  kept in every window: 19 of 28 pairs
+  winnipeg   > calgary    in 17 of 20 windows   (study +5, long-term +5)
+  calgary    > ottawa     in 14 of 20 windows   (study +10, long-term +3)
+  calgary    > halifax    in 16 of 20 windows   (study +11, long-term +7)
+  toronto    > montreal   in 13 of 20 windows   (study +2, long-term +1)
+  toronto    > ottawa     in  2 of 20 windows   (study +4, long-term -5)
+  toronto    > halifax    in 13 of 20 windows   (study +4, long-term -0)
+  montreal   > ottawa     in  1 of 20 windows   (study +1, long-term -6)
+  montreal   > halifax    in  9 of 20 windows   (study +2, long-term -1)
+  edmonton   > vancouver  in 10 of 20 windows   (study +2, long-term +2)
+
+FEW cloud-group share by station, dropped year(s) [2000] vs 2001-2005:
+city        FEW% dropped  FEW% after   obs dropped obs 2001-2005  deficit
+calgary             0.1%       20.5%            54            74      -20
+vancouver           0.2%       15.8%            38            66      -28
+edmonton            0.2%       18.1%            33            56      -23
+winnipeg           18.5%       17.2%           110            99      +11
+toronto             0.1%       17.7%            49           100      -51
+ottawa             15.4%       18.5%            90            99       -9
+montreal            0.0%       18.1%            44            94      -50
+halifax             0.0%       13.5%            56            90      -34
+  6 of 8 stations code FEW in under 0.2% of their 2000 reports, against 14-21% over 2001-2005;
+  their observable counts fall 20-51 nights below their 2001-2005 means.

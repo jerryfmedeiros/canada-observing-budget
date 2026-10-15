@@ -1,0 +1,11 @@
+Corrected good nights by part of the year, 2020-2025
+
+city        good  Sep-May  Mar+Oct  best two (ties)        Jul transp
+calgary      392    95.9%    26.3%  Oct 61, Jan 50, Apr 50      12.2%
+vancouver    290    99.3%    25.5%  Apr 53, Mar 41               1.9%
+edmonton     295    97.3%    29.5%  Oct 50, Sep 41               0.0%
+winnipeg     419    98.8%    28.6%  Mar 69, Feb 67               1.7%
+toronto      350    94.6%    29.4%  Oct 54, Mar 49               2.2%
+ottawa       333    97.9%    27.9%  Mar 48, Oct 45               1.6%
+montreal     338    97.6%    27.8%  Oct 48, Mar 46               0.5%
+halifax      328    96.6%    26.8%  Oct 48, Mar 40               2.7%

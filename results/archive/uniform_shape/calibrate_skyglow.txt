@@ -1,0 +1,41 @@
+reading 2014 composite (one-time)...
+reading 2025 composite (one-time)...
+Calibration of the Walker-law model (2014 VIIRS v2.1) to the Falchi et al. atlas
+exponent  log10 k  RMS mag  n cells
+    2.00   -2.431    0.143  1304857
+    2.25   -2.098    0.133  1304857
+    2.50   -1.770    0.241  1304857
+    2.75   -1.437    0.431  1304857
+    3.00   -1.116    0.670  1304857
+    3.25   -0.858    0.893  1304857
+    3.50   -0.640    1.102  1304857
+best exponent 2.25, RMS 0.13 mag/arcsec^2
+
+Validation, 2014 lights: atlas vs calibrated model
+city       atlas mag model mag   atlas esc 87/14   model esc 87/14
+calgary        18.06     17.29      45    82          41   100
+winnipeg       17.40     17.05      48    80          35    83
+edmonton       17.66     17.12      64   113          49   126
+montreal       17.58     17.29      70   127          76   187
+vancouver      17.98     17.83      35    68          29    84
+ottawa         18.00     17.75      35    69          34   104
+toronto        17.65     17.58      84   143          94   196
+halifax        18.74     18.40      20    49          18    53
+
+Calibrated model, 2025 lights (VIIRS v2, NPP), exponent 2.25
+city       art. mcd  x nat    mag  esc87  esc14   downtown change 2014->2025
+winnipeg      15.47   90.4  17.10     37     87      -4%
+edmonton      15.12   88.3  17.12     50    134      -0%
+montreal       9.04   52.8  17.67     74    179     -30%
+calgary       12.21   71.4  17.35     37     95      -6%
+toronto       10.62   62.0  17.50     95    197      +7%
+ottawa         8.07   47.2  17.79     33     99      -4%
+vancouver      7.77   45.4  17.83     33     93      -0%
+halifax        4.99   29.2  18.30     20     59     +10%
+
+Dark-Sky Preserves, calibrated model: 2014 -> 2025 (mag/arcsec^2)
+  Beaver Hills (AB)         21.41 ->  21.38
+  Cypress Hills (AB/SK)     21.97 ->  21.98
+  Mont-Megantic (QC)        21.81 ->  21.84
+  Torrance Barrens (ON)     21.74 ->  21.76
+  Kejimkujik (NS)           21.97 ->  21.96

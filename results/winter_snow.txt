@@ -1,0 +1,9 @@
+Winter (DJF) days with snow on ground (ERA5-Land depth > 1 cm), 2020-2025:
+  calgary     99.4%   (n=542)
+  edmonton   100.0%   (n=542)
+  winnipeg    99.8%   (n=542)
+  montreal    96.3%   (n=542)
+  ottawa      98.5%   (n=542)
+  toronto     85.6%   (n=542)
+  vancouver   46.9%   (n=542)
+  halifax     84.3%   (n=542)

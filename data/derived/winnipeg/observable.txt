@@ -1,0 +1,130 @@
+Observable-night climatology 2020-2025  (Winnipeg, local tz America/Winnipeg)
+Usable = okta<=2; darkness -18deg & -12deg; moonless = Moon below horizon
+Observable = at least 4 h of expected clear astronomical darkness
+============================================================================================
+Loading NAPS PM2.5 (smoke proxy) ...
+  41060 Winnipeg PM2.5 station-hours loaded
+Loading ERA5 PWV + 200 hPa wind + 10 m wind ...
+  52608 PWV, 52608 200hPa-wind, 52608 10m-wind hours loaded
+Computing deterministic dark/moonless budgets per night ...
+
+[DARK-TIME BUDGET] mean hours/night by month (deterministic)
+Mon  |  dark-18 | moonless-18 |  dark-12 | moonless-12
+--------------------------------------------------------
+1    |    11.48 |        5.66 |    12.77 |        6.30
+2    |    10.22 |        5.02 |    11.46 |        5.63
+3    |     8.38 |        4.16 |     9.68 |        4.81
+4    |     5.99 |        2.99 |     7.58 |        3.79
+5    |     2.80 |        1.40 |     5.43 |        2.76
+6    |     0.00 |        0.00 |     4.12 |        2.15
+7    |     1.61 |        0.89 |     4.89 |        2.58
+8    |     5.20 |        2.73 |     6.95 |        3.62
+9    |     7.72 |        3.98 |     9.08 |        4.67
+10   |     9.72 |        4.92 |    10.97 |        5.54
+11   |    11.20 |        5.59 |    12.47 |        6.23
+12   |    11.88 |        5.84 |    13.19 |        6.50
+
+Annual astronomical-dark hours (sky maximum):    2620 h/yr (moonless   1312 h/yr)
+
+============================================================================================
+STATION CYWG
+
+[OBSERVABLE BUDGET] CYWG — full-year totals, astronomical dark (-18), bar 4 h
+  (smoke-clean = no FU/PM2.5>=35; corr = bias-corrected, satellite gap 13.6 pp)
+Year  | clear-dark h | clr-moonless h |  observable | smoke-clean |        good |     low-jet |    obs corr |   good corr | clr-dark h corr |  imput
+--------------------------------------------------------------------------------------------------------------------------------------------------
+2020  |          945 |            453 |         103 |         100 |          79 |          51 |          85 |          64 |             814 |    5%
+2021  |         1036 |            584 |         111 |         109 |          87 |          60 |         101 |          78 |             900 |    4%
+2022  |          935 |            498 |         100 |         100 |          77 |          46 |          91 |          68 |             806 |    5%
+2023  |          966 |            418 |         111 |         105 |          91 |          65 |          93 |          77 |             827 |    5%
+2024  |          876 |            445 |          94 |          89 |          67 |          40 |          82 |          58 |             743 |    5%
+2025  |          991 |            513 |         104 |         104 |          82 |          43 |          95 |          74 |             859 |    5%
+mean  |          958 |            485 |         104 |         101 |          80 |          51 |          91 |          70 |             825 | (smoke -3/yr)
+  Attrition (raw): observable 104 -> smoke-clean 101 -> transparent (good) 80 nights/yr, of which low-jet 51 (PWV<=15mm; low-jet: 200hPa wind<=30m/s, 10m wind<=8m/s)
+
+[OBSERVABLE BY SEASON] CYWG — per sampled night (-18 dark)
+Season   | clear-dark h/nt | moonless h/nt | P(observable) 95% CI |     N
+-------------------------------------------------------------------------
+WINTER   |            3.56 |          1.61 | 37.2% [33%,41%] |   540
+SPRING   |            2.37 |          1.26 | 26.3% [23%,30%] |   533
+SUMMER   |            2.25 |          1.21 | 22.5% [18%,28%] |   298
+AUTUMN   |            3.43 |          1.83 | 39.4% [35%,44%] |   546
+
+[OBSERVING CALENDAR] CYWG — per month (astronomical dark), nights per year
+Mon  | clr-dark h/nt | moonless h/nt |  observable |        good |    obs corr |   good corr | clr-dark h/nt corr
+-----------------------------------------------------------------------------------------------------------------
+Jan  |          3.14 |          1.29 |         9.5 |         9.3 |         7.8 |         7.7 |               2.57
+Feb  |          4.31 |          2.11 |        13.3 |        13.3 |        11.2 |        11.2 |               3.73
+Mar  |          3.61 |          1.92 |        12.8 |        12.7 |        11.7 |        11.5 |               3.17
+Apr  |          2.14 |          1.09 |         8.8 |         8.7 |         8.7 |         8.5 |               1.95
+May  |          1.13 |          0.64 |         1.7 |         1.5 |         1.7 |         1.5 |               1.03
+Jul  |          0.81 |          0.41 |         0.0 |         0.0 |         0.0 |         0.0 |               0.75
+Aug  |          2.84 |          1.55 |        11.2 |         0.8 |        10.8 |         0.8 |               2.63
+Sep  |          3.89 |          2.14 |        14.7 |         5.0 |        13.3 |         4.7 |               3.44
+Oct  |          3.44 |          1.77 |        11.7 |         9.7 |         9.8 |         8.5 |               2.90
+Nov  |          2.97 |          1.60 |         9.5 |         8.8 |         7.7 |         7.0 |               2.38
+Dec  |          3.30 |          1.48 |        10.7 |        10.7 |         8.5 |         8.5 |               2.64
+
+[DIURNAL] CYWG — usable-sky (okta<=2) fraction by local clock hour
+Hour  |  usable |       N    (all obs, America/Winnipeg)
+----------------------------------------
+00:00 |  34.6% |    2551
+01:00 |  36.1% |    2543
+02:00 |  35.8% |    2524
+03:00 |  35.5% |    2575
+04:00 |  36.4% |    2575
+05:00 |  33.3% |    2606
+06:00 |  31.4% |    2614
+07:00 |  26.1% |    2730
+08:00 |  23.3% |    2798
+09:00 |  24.9% |    2723
+10:00 |  25.1% |    2669
+11:00 |  24.2% |    2599
+12:00 |  23.5% |    2558
+13:00 |  22.5% |    2543
+14:00 |  20.7% |    2573
+15:00 |  20.6% |    2575
+16:00 |  21.1% |    2612
+17:00 |  22.3% |    2577
+18:00 |  24.5% |    2560
+19:00 |  26.6% |    2553
+20:00 |  29.0% |    2577
+21:00 |  28.9% |    2569
+22:00 |  32.0% |    2494
+23:00 |  33.0% |    2518
+
+[TRANSPARENCY] CYWG — obscuration among CLEAR dark obs (okta<=2, sun<=-18)
+Year   | clear-dark obs |    smoke |     haze |  any obsc
+--------------------------------------------------------
+2020   |            975 |    0.0% |    0.0% |     1.3%
+2021   |           1076 |    0.7% |    0.0% |     1.8%
+2022   |            977 |    0.0% |    0.0% |     1.9%
+2023   |           1017 |    0.5% |    0.0% |     2.9%
+2024   |            930 |    1.4% |    0.0% |     3.1%
+2025   |           1018 |    0.4% |    0.0% |     1.4%
+season |
+WINTER |           2047 |    0.0% |    0.0% |     1.6%
+SPRING |           1314 |    0.0% |    0.0% |     0.9%
+SUMMER |            682 |    2.6% |    0.0% |     3.4%
+AUTUMN |           1952 |    0.6% |    0.0% |     2.8%
+
+[PM2.5 SMOKE] CYWG — PM2.5>=35 ug/m3 among CLEAR dark obs (matched hours; independent of METAR FU)
+bucket   | matched obs | smoke (PM2.5)
+----------------------------------------
+2020     |         975 |         1.0%
+2021     |        1059 |         1.4%
+2022     |         896 |         0.4%
+2023     |         941 |         2.1%
+2024     |         868 |         2.8%
+WINTER   |        1618 |         0.2%
+SPRING   |         970 |         0.2%
+SUMMER   |         567 |         5.8%
+AUTUMN   |        1586 |         2.2%
+
+[BIAS night-level] CYWG usable fraction (okta<=2), unit = night/day
+  Night (sun<=-12):  39.4%  95% CI [37.7%, 41.1%]  (2191 nights)
+  Day   (sun>= 6 ):  26.4%  95% CI [25.1%, 27.9%]  (2189 days)
+  Night-Day delta: +13.0 pp  95% CI [+10.7, +15.2] pp
+
+============================================================================================
+[BIAS] Winnipeg: no automated partner configured; the gap comes from the satellite comparison (gaps.py).

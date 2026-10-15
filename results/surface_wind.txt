@@ -1,0 +1,11 @@
+Low-jet nights a year (corrected), with and without the 10 m wind <= 8 m/s condition
+
+city         with  without  removed
+calgary     42.67    42.67     0.00
+vancouver   31.17    31.17     0.00
+edmonton    35.83    35.83     0.00
+winnipeg    44.83    44.83     0.00
+toronto     28.83    28.83     0.00
+ottawa      29.50    29.50     0.00
+montreal    28.50    28.50     0.00
+halifax     21.83    21.83     0.00

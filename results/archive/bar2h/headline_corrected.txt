@@ -1,0 +1,77 @@
+Corrected headline budget (gap spec: satellite, uniform shape)
+
+city         gap  clr-h  (raw)   obs (raw) -smoke -transp -seeing great   great CI  conv  deep    deep CI (raw) best
+winnipeg    13.6    752    958   128   150    4.3    32.5    33.2    58 [ 50, 68]    46%    92 [ 81,104]   107 Feb, Mar
+calgary     23.2    546    881   104   141    1.3    15.5    31.2    56 [ 47, 65]    54%    87 [ 76, 98]   118 Mar, Apr
+edmonton    16.1    480    673    88   109    3.5    13.2    21.3    50 [ 42, 58]    57%    72 [ 61, 81]    90 Oct, Mar
+ottawa      10.4    703    853   130   146    0.5    47.8    39.3    42 [ 36, 49]    32%    81 [ 72, 92]    91 Apr, Mar
+vancouver    9.0    644    754   113   125    1.2    47.3    23.0    41 [ 34, 50]    37%    64 [ 55, 74]    72 Apr, Mar
+montreal    15.5    696    926   129   156    0.3    50.7    38.5    40 [ 34, 46]    31%    78 [ 69, 88]    95 May, Apr
+toronto     13.7    754    969   142   166    1.7    59.3    44.8    36 [ 30, 43]    25%    81 [ 72, 90]    96 May, Oct
+halifax     12.3    623    791   114   132    0.0    35.0    47.7    32 [ 26, 37]    28%    79 [ 70, 88]    92 May, Apr
+
+Deep-sky ranking: winnipeg > calgary > ottawa > toronto > halifax > montreal > edmonton > vancouver
+
+Pairwise corrected differences (shared night blocks):
+  calgary   - winnipeg  great  -3.2 [-12.7, +6.7] unresolved
+  calgary   - winnipeg  deep   -5.4 [-17.7, +6.7] unresolved
+  winnipeg  - toronto   great +22.7 [+12.8,+33.0] resolved
+  winnipeg  - toronto   deep  +11.0 [ -0.3,+21.8] unresolved
+  calgary   - toronto   great +19.5 [+10.2,+29.7] resolved
+  calgary   - toronto   deep   +5.6 [ -6.8,+17.7] unresolved
+  edmonton  - vancouver great  +8.8 [ +0.5,+17.3] resolved
+  edmonton  - vancouver deep   +6.8 [ -4.2,+17.3] unresolved
+  halifax   - vancouver great  -9.9 [-19.0, -1.2] resolved
+  halifax   - vancouver deep  +14.8 [ +3.8,+25.8] resolved
+  edmonton  - montreal  great +10.3 [ +1.3,+19.7] resolved
+  edmonton  - montreal  deep   -6.9 [-18.7, +4.5] unresolved
+  edmonton  - halifax   great +18.6 [ +9.8,+27.3] resolved
+  edmonton  - halifax   deep   -8.0 [-18.8, +3.2] unresolved
+  edmonton  - ottawa    great  +7.9 [ -1.2,+17.3] unresolved
+  edmonton  - ottawa    deep  -10.7 [-22.5, +1.2] unresolved
+  halifax   - toronto   great  -4.8 [-11.7, +2.0] unresolved
+  halifax   - toronto   deep   -2.0 [-12.0, +8.0] unresolved
+  winnipeg  - edmonton  great  +8.8 [ -0.7,+18.0] unresolved
+  winnipeg  - edmonton  deep  +21.0 [ +9.2,+32.2] resolved
+  calgary   - edmonton  great  +5.6 [ -1.8,+13.3] unresolved
+  calgary   - edmonton  deep  +15.6 [ +6.3,+24.7] resolved
+
+Great nights at longer bars, moonless share, July/August observable:
+  winnipeg   2h  58.5  4h  43.5 ( 74%)  6h  28.2 ( 48%)  moonless  32.0 ( 55%)  Jul obs  4.8  Aug obs 17.5  Jul great 0.0  Aug great 0.5
+  calgary    2h  56.0  4h  35.2 ( 63%)  6h  18.5 ( 33%)  moonless  30.2 ( 54%)  Jul obs  1.8  Aug obs 13.2  Jul great 0.2  Aug great 2.5
+  edmonton   2h  50.2  4h  34.5 ( 69%)  6h  18.5 ( 37%)  moonless  29.7 ( 59%)  Jul obs  0.0  Aug obs 11.0  Jul great 0.0  Aug great 1.5
+  ottawa     2h  41.8  4h  28.2 ( 67%)  6h  16.8 ( 40%)  moonless  23.7 ( 57%)  Jul obs 11.0  Aug obs 13.5  Jul great 0.0  Aug great 0.5
+  vancouver  2h  41.3  4h  30.0 ( 73%)  6h  18.3 ( 44%)  moonless  22.8 ( 55%)  Jul obs 10.5  Aug obs 17.2  Jul great 0.3  Aug great 0.3
+  montreal   2h  39.8  4h  27.3 ( 69%)  6h  17.8 ( 45%)  moonless  22.7 ( 57%)  Jul obs 10.8  Aug obs 13.8  Jul great 0.0  Aug great 0.7
+  toronto    2h  36.2  4h  26.3 ( 73%)  6h  17.0 ( 47%)  moonless  21.3 ( 59%)  Jul obs 17.0  Aug obs 16.5  Jul great 0.2  Aug great 1.2
+  halifax    2h  31.7  4h  20.5 ( 65%)  6h  12.0 ( 38%)  moonless  19.2 ( 61%)  Jul obs  7.7  Aug obs 12.2  Jul great 0.2  Aug great 0.8
+
+Great nights by year (corrected):
+  winnipeg   2020: 57 2021: 71 2022: 54 2023: 69 2024: 51 2025: 49   min 49 max 71
+  calgary    2020: 45 2021: 57 2022: 50 2023: 82 2024: 54 2025: 48   min 45 max 82
+  edmonton   2020: 43 2021: 62 2022: 44 2023: 58 2024: 49 2025: 45   min 43 max 62
+  ottawa     2020: 45 2021: 40 2022: 48 2023: 45 2024: 37 2025: 36   min 36 max 48
+  vancouver  2020: 36 2021: 37 2022: 44 2023: 47 2024: 41 2025: 43   min 36 max 47
+  montreal   2020: 37 2021: 36 2022: 38 2023: 47 2024: 50 2025: 31   min 31 max 50
+  toronto    2020: 31 2021: 43 2022: 34 2023: 31 2024: 43 2025: 35   min 31 max 43
+  halifax    2020: 29 2021: 31 2022: 24 2023: 44 2024: 33 2025: 29   min 24 max 44
+
+Clear-dark hours per night by season (corrected):
+  winnipeg   win 2.73 spr 1.85 sum 1.51 aut 2.66
+  calgary    win 1.82 spr 1.16 sum 1.02 aut 2.32
+  edmonton   win 1.58 spr 0.95 sum 0.68 aut 2.28
+  ottawa     win 1.78 spr 1.80 sum 1.51 aut 2.61
+  vancouver  win 1.65 spr 1.65 sum 1.31 aut 2.45
+  montreal   win 1.72 spr 1.74 sum 1.51 aut 2.65
+  toronto    win 1.36 spr 1.98 sum 2.12 aut 2.79
+  halifax    win 1.66 spr 1.51 sum 1.24 aut 2.42
+
+Great nights by month (corrected):
+  winnipeg    6.8 10.0  9.5  9.2  4.3  0.0  0.0  0.5  3.0  5.5  3.8  5.8
+  calgary     5.5  5.8  8.0  7.2  3.2  0.0  0.2  2.5  6.0  7.0  5.7  5.0
+  edmonton    4.0  4.8  7.2  6.7  2.0  0.0  0.0  1.5  6.0  7.3  5.3  5.3
+  ottawa      4.8  3.2  6.0  6.5  5.7  1.5  0.0  0.5  2.5  6.0  2.7  2.5
+  vancouver   2.5  4.5  7.0  8.7  4.5  0.0  0.3  0.3  2.8  3.2  3.8  3.7
+  montreal    4.7  3.2  5.2  5.3  5.8  1.3  0.0  0.7  2.8  4.8  2.7  3.3
+  toronto     2.2  2.8  4.5  4.5  6.2  1.8  0.2  1.2  3.7  5.0  2.3  1.8
+  halifax     2.3  2.3  4.0  4.5  5.0  0.7  0.2  0.8  2.2  4.5  2.3  2.8

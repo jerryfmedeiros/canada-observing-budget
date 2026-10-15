@@ -1,0 +1,34 @@
+{
+  "site": "halifax",
+  "human": "CYHZ",
+  "auto": "CYAW",
+  "years": [
+    2020,
+    2025
+  ],
+  "night_solar_alt_max_deg": -12.0,
+  "stations": [
+    {
+      "station": "CYHZ",
+      "role": "human",
+      "n_reports": 76290,
+      "pct_auto_all": 0.05,
+      "night_n": 29595,
+      "night_pct_auto": 0.0,
+      "night_usable_pct": 20.6,
+      "qualifies": true,
+      "verdict": "OK human-augmented"
+    },
+    {
+      "station": "CYAW",
+      "role": "auto",
+      "n_reports": 21934,
+      "pct_auto_all": 0.0,
+      "night_n": 1714,
+      "night_pct_auto": 0.0,
+      "night_usable_pct": 29.2,
+      "qualifies": false,
+      "verdict": "not fully AUTO -- inspect"
+    }
+  ]
+}

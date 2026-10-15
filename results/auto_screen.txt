@@ -1,0 +1,15 @@
+site       station role    night N %AUTO night %AUTO all  verdict
+calgary    CYYC    human     22866        0.0%      0.0%  OK human-augmented
+calgary    CYBW    auto      33577      100.0%    100.0%  OK automated
+vancouver  CYVR    human     24754        0.0%      0.0%  OK human-augmented
+vancouver  CYXX    auto      23035        0.0%      0.0%  not fully AUTO -- inspect
+edmonton   CYEG    human     23662        0.0%      0.0%  OK human-augmented
+edmonton   CZVL    auto      30737      100.0%    100.0%  OK automated
+winnipeg   CYWG    human     23264        0.0%      0.0%  OK human-augmented
+toronto    CYYZ    human     24161        0.0%      0.0%  OK human-augmented
+toronto    CYTZ    auto      33608      100.0%    100.0%  OK automated
+ottawa     CYOW    human     25187        0.0%      0.0%  OK human-augmented
+montreal   CYUL    human     24206        0.0%      0.0%  OK human-augmented
+montreal   CYHU    auto      36669      100.0%    100.0%  OK automated
+halifax    CYHZ    human     29595        0.0%      0.1%  OK human-augmented
+halifax    CYAW    auto       1714        0.0%      0.0%  not fully AUTO -- inspect

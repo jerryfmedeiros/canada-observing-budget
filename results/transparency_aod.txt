@@ -1,0 +1,34 @@
+1. Are humid nights hazier? (smoke-clean nights with both PWV and AOD)
+
+city           n    rho rho, month              median AOD         share AOD > 0.3
+                           removed      <=15 mm     >15 mm      <=15 mm     >15 mm
+calgary     1827  +0.37      +0.22        0.066      0.144         1.3%      23.4%
+vancouver   2009  +0.32      +0.34        0.096      0.114         0.9%       6.0%
+edmonton    1694  +0.27      +0.24        0.073      0.123         1.3%      21.0%
+winnipeg    1901  +0.62      +0.55        0.076      0.173         1.5%      27.2%
+toronto     2177  +0.61      +0.63        0.099      0.200         5.1%      26.1%
+ottawa      2187  +0.57      +0.62        0.094      0.175         4.5%      22.1%
+montreal    2184  +0.56      +0.61        0.095      0.172         5.5%      21.4%
+halifax     2191  +0.54      +0.51        0.085      0.137         1.6%       8.8%
+POOLED     16170  +0.55                   0.084      0.153         2.7%      18.3%
+
+Median extra zenith extinction above the bar: 0.08 mag (1.086 x the AOD difference).
+
+2. Good nights/yr with the transparency test replaced (corrected, >= 4 h bar)
+
+city          PWV<=15  AOD<=0.10  AOD<=0.15  AOD<=0.20       none
+winnipeg         69.8       69.0       80.2       84.7       89.0
+calgary          65.3       64.0       70.3       72.7       75.0
+toronto          58.3       49.8       74.5       84.7       96.8
+montreal         56.3       55.3       73.3       77.8       84.7
+ottawa           55.5       54.8       69.8       75.2       81.3
+halifax          54.7       56.3       70.5       73.8       77.0
+edmonton         49.2       46.5       52.7       54.3       56.5
+vancouver        48.3       48.3       66.0       71.7       76.5
+
+Ranking under each test:
+  PWV<=15   : win > cal > tor > mon > ott > hal > edm > van
+  AOD<=0.10 : win > cal > hal > mon > ott > tor > van > edm
+  AOD<=0.15 : win > tor > mon > hal > cal > ott > van > edm
+  AOD<=0.20 : win > tor > mon > ott > hal > cal > van > edm
+  none      : tor > win > mon > ott > hal > van > cal > edm

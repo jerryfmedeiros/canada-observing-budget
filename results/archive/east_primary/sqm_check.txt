@@ -1,0 +1,15 @@
+Globe at Night SQM readings within 150 km: 514; clear 432; clear, astronomically dark and moonless 20
+
+Residual SQM - atlas (mag/arcsec^2; negative = brighter than atlas), n = 20
+  pooled median -0.66 [-1.41, -0.44]; Spearman(SQM, atlas) = +0.74
+  calgary    n   2  (too few)
+  winnipeg   n   0  (too few)
+  edmonton   n   1  (too few)
+  montreal   n   3  (too few)
+  vancouver  n   1  (too few)
+  ottawa     n   9  median -0.55 [-0.75, -0.38]  years 2024-2025
+  toronto    n   4  (too few)
+  halifax    n   0  (too few)
+  2021-2025  n  16  median -0.58 [-1.31, -0.40]
+
+Trend in residual, city fixed effects (n = 18): -0.047 mag/arcsec^2/yr [-0.287, +0.336]  (negative = brightening relative to the 2014-based atlas)

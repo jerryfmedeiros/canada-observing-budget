@@ -1,0 +1,25 @@
+city                 great (FU+PM) great (FU)     d
+calgary    raw                71.0       71.0  +0.0
+calgary    corrected          56.0       56.0  +0.0
+vancouver  raw                45.8       45.8  +0.0
+vancouver  corrected          41.3       41.3  +0.0
+edmonton   raw                62.2       63.5  +1.3
+edmonton   corrected          50.2       51.3  +1.2
+winnipeg   raw                68.0       68.7  +0.7
+winnipeg   corrected          58.5       59.0  +0.5
+toronto    raw                41.3       41.8  +0.5
+toronto    corrected          36.2       36.7  +0.5
+ottawa     raw                45.3       45.5  +0.2
+ottawa     corrected          41.8       42.0  +0.2
+montreal   raw                47.5       48.2  +0.7
+montreal   corrected          39.8       40.2  +0.3
+halifax    raw                35.3       35.3  +0.0
+halifax    corrected          31.7       31.7  +0.0
+
+raw: largest change 1.3 nights/yr; ordering unchanged: True
+  FU+PM2.5: cal > win > edm > mon > van > ott > tor > hal
+  FU only : cal > win > edm > mon > van > ott > tor > hal
+
+corrected: largest change 1.2 nights/yr; ordering unchanged: True
+  FU+PM2.5: win > cal > edm > ott > van > mon > tor > hal
+  FU only : win > cal > edm > ott > van > mon > tor > hal

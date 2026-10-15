@@ -1,0 +1,23 @@
+# What is shipped and what is not.
+#
+# Shipped: the inputs under data/ (metar_cache, era5_cache, pm25_cache, merra2_cache,
+# snow_cache, ne_cache, sqm_cache, tess_cache, viirs_dnb_cache, paper1, derived), everything
+# in results/, and figures/. Together they let a reader check every number in the paper
+# without re-fetching anything, except the light-pollution numbers that need the Falchi et
+# al. atlas, whose licence does not allow redistribution.
+#
+# results/ is part of the evidence, not scratch: viirs_dnb.csv and smoke_trend_sources.csv
+# are read back as inputs by other scripts, and naps_2024_coverage_check.log records a check of the live 2024
+# NAPS file that a later run cannot repeat. Shipping outputs is also what makes drift
+# detectable: run verify.py to confirm they still match what the code produces.
+#
+# Not shipped: the Falchi et al. atlas (redistribution not permitted; see README.md), the
+# full VIIRS annual composites (280-340 MB each, over GitHub's 100 MB file limit; the
+# repository ships the crops of them that the scripts read), and scratch files.
+data/falchi_cache/
+data/viirs_dnb_cache/*.tif.gz
+data/snow_cds_scratch/
+
+__pycache__/
+*.pyc
+.DS_Store

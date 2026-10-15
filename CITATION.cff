@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "canada-observing-budget: code and data for 'Usable Observing Nights in Eight Canadian Cities: Cloud, Transparency, and Smoke, 2020-2025'"
+authors:
+  - family-names: Fernandes Medeiros
+    given-names: Jerry
+    email: jerry.fmedeiros@gmail.com
+    affiliation: "Independent Researcher, Calgary, Alberta, Canada"
+    orcid: "https://orcid.org/0000-0001-5825-7675"
+version: "1.0"
+date-released: 2026-10-14
+license: MIT
+repository-code: "https://github.com/jerryfmedeiros/canada-observing-budget"
+references:
+  - type: article
+    title: "Human cloud reports overstate nighttime clearing: a ceilometer, GOES, and VIIRS comparison at eight Canadian airports"
+    authors:
+      - family-names: Fernandes Medeiros
+        given-names: Jerry
+        orcid: "https://orcid.org/0000-0001-5825-7675"
+    year: 2026
+    notes: "Companion paper. Supplies the night-day gaps in data/paper1/ that this repository corrects with."
+    identifiers:
+      - type: doi
+        value: 10.5281/zenodo.21698181
+        description: "Concept DOI for the companion paper's code and data archive"
+preferred-citation:
+  type: article
+  title: "Usable Observing Nights in Eight Canadian Cities: Cloud, Transparency, and Smoke, 2020-2025"
+  authors:
+    - family-names: Fernandes Medeiros
+      given-names: Jerry
+      orcid: "https://orcid.org/0000-0001-5825-7675"
+  journal: "Journal of the Royal Astronomical Society of Canada"
+  year: 2026
+  notes: "submitted; DOI to follow"

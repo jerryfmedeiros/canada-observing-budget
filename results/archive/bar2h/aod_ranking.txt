@@ -1,0 +1,15 @@
+city        baseline  AOD<=0.3  AOD<=0.2 AOD<=0.15
+calgary           71        71        70        68
+winnipeg          68        68        67        64
+edmonton          62        62        61        59
+montreal          48        47        45        43
+vancouver         46        46        45        42
+ottawa            45        45        45        42
+toronto           41        41        39        37
+halifax           35        35        34        34
+
+Ranking under each column:
+  baseline  : cal > win > edm > mon > van > ott > tor > hal
+  AOD<=0.3  : cal > win > edm > mon > van > ott > tor > hal
+  AOD<=0.2  : cal > win > edm > mon > van > ott > tor > hal
+  AOD<=0.15 : cal > win > edm > mon > van > ott > tor > hal

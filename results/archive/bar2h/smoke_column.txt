@@ -1,0 +1,28 @@
+AOD column-smoke threshold = 0.30 (550 nm)
+
+city         obs  srf+  aod+  both srf-only aod-only  agree%
+calgary      845    14    38     9        5       29   96.0%
+vancouver    751     8    28     4        4       24   96.3%
+edmonton     653    23    29    13       10       16   96.0%
+winnipeg     901    28    67    16       12       51   93.0%
+toronto      995    10    80     4        6       76   91.8%
+ottawa       877     3    54     2        1       52   94.0%
+montreal     937     5    53     1        4       52   94.0%
+halifax      790     0    19     0        0       19   97.6%
+------------------------------------------------------------
+POOLED      6749    91   368    49       42      319   94.7%
+
+Of 91 surface-flagged observable nights, 49 (54%) also exceed AOD 0.30.
+Column smoke the surface flag MISSED: 319 nights (4.7% of 6749 observable nights, ~53.2/yr pooled).
+
+Surface-flag detection rate by MERRA-2 column AOD:
+      AOD bin  nights  flagged  detected
+      0.0-0.3    6381       42      0.7%
+      0.3-0.5     232       17      7.3%
+      0.5-0.8      87       16     18.4%
+      0.8-1.5      39       13     33.3%
+        >=1.5      10        3     30.0%
+  AOD >= 0.30: 49/368 flagged = 13.3% detected
+  AOD >= 0.80: 16/49 flagged = 32.7% detected
+  Detection climbs with column depth but stays well below 100% even in the thickest bin,
+  so the surface flag is a LOWER BOUND on smoke, not a reliable detector of it.

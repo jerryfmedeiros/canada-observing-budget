@@ -1,0 +1,9 @@
+city        GOES-East  GOES-West  nearer    satellite  ceilometer        east   (gap, pp)
+calgary         68.8°      62.5°    West         18.8        17.0        23.2
+vancouver       72.3°      58.0°    West          9.0         9.0        10.7
+edmonton        70.3°      64.7°    West         19.5        17.7        16.1
+winnipeg        61.0°      68.5°    East         13.6        13.6        13.6
+toronto         50.6°      75.6°    East         13.7        18.0        13.7
+ottawa          52.2°      79.0°    East         10.4        10.4        10.4
+montreal        52.4°      80.3°    East         15.5        13.5        15.5
+halifax         53.0°      87.2°    East         12.3        12.3        12.3

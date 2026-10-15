@@ -1,0 +1,6 @@
+city       winter/all |            observable |                 great |          winter great
+                      | year-round     scaled | year-round     scaled | year-round     scaled
+calgary          1.05 |       76.0       75.5 |       42.7       42.7 |       12.7       12.7
+edmonton         0.87 |       58.5       59.0 |       35.8       36.2 |        9.5        9.8
+toronto          0.41 |       98.3      102.0 |       28.8       29.7 |        5.0        5.8
+montreal         0.79 |       84.8       85.0 |       28.5       28.5 |        8.3        8.3

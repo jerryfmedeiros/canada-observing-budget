@@ -1,0 +1,9 @@
+site,family,threshold_cm,human_day_pct,goes_day_pct,day_offset_pp,n_day_units,night_gap_pp
+calgary,east,1.0,24.1,43.8,-19.8,740,23.2
+vancouver,west,1.0,30.2,39.7,-9.4,1102,9.0
+edmonton,east,1.0,25.0,42.5,-17.5,760,16.1
+winnipeg,east,1.0,28.1,43.6,-15.5,781,13.6
+toronto,east,1.0,25.6,41.7,-16.0,986,13.7
+ottawa,east,1.0,23.3,42.2,-19.0,836,10.4
+montreal,east,1.0,24.4,43.4,-19.0,819,15.5
+halifax,east,1.0,19.8,40.3,-20.5,936,12.3

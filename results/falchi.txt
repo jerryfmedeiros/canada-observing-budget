@@ -1,0 +1,27 @@
+Falchi et al. (2016) atlas: artificial zenith brightness (2014 VIIRS basis)
+city       art. mcd/m2 x natural V mag/as2   escape km to artificial < 688 / 87 / 14 ucd/m2
+montreal         11.13      65.0     17.45      27     71    126
+winnipeg         10.66      62.3     17.50      18     47     80
+edmonton          8.99      52.5     17.68      26     64    113
+toronto           8.20      47.9     17.78      42     81    143
+vancouver         7.10      41.5     17.93      11     34     67
+calgary           6.25      36.5     18.07      19     46     82
+ottawa            6.04      35.3     18.10      15     35     69
+halifax           3.34      19.5     18.72       6     20     48
+
+class boundaries as total sky brightness: 688 ucd/m2 -> 20.25, 87 ucd/m2 -> 21.55, 14 ucd/m2 -> 21.91; natural 22.00 mag/arcsec^2
+
+Reference: RASC Dark-Sky Preserves
+  Beaver Hills (AB)           232.5 ucd/m2   21.07 mag/arcsec^2
+  Cypress Hills (AB/SK)         3.5 ucd/m2   21.98 mag/arcsec^2
+  Mont-Megantic (QC)           16.8 ucd/m2   21.90 mag/arcsec^2
+  Torrance Barrens (ON)        40.1 ucd/m2   21.77 mag/arcsec^2
+  Kejimkujik (NS)               1.5 ucd/m2   21.99 mag/arcsec^2
+
+Spearman rank correlations with the corrected counts (n = 8; |rho| >= 0.74 needed for p < 0.05 two-sided)
+  escape<688: good +0.40 (p = 0.33)  low-jet +0.05
+  escape< 87: good +0.43 (p = 0.30)  low-jet +0.07
+  escape< 14: good +0.40 (p = 0.33)  low-jet +0.05
+  downtown  : good +0.29  low-jet +0.26
+
+escape<87 vs Walker 2022 escape (1/300): Spearman +0.99

@@ -1,0 +1,14 @@
+city        strict   default  lenient
+calgary          35       56       76
+vancouver        20       41       63
+edmonton         30       50       66
+winnipeg         35       58       77
+toronto          17       36       64
+ottawa           22       42       63
+montreal         19       40       62
+halifax          14       32       54
+
+Ranking (city order) under each set:
+  strict : win > cal > edm > ott > van > mon > tor > hal
+  default: win > cal > edm > ott > van > mon > tor > hal
+  lenient: win > cal > edm > tor > van > ott > mon > hal

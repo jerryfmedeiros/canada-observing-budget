@@ -1,0 +1,30 @@
+NAPS PM2.5 coverage behind the smoke test, and MERRA-2 column AOD (threshold 0.30) on the nights it misses
+Observable = >= 4 h expected clear dark, bias-corrected. AOD over each night's astronomical-dark report hours.
+
+1. Share of observable nights with PM2.5 behind them, by year (%)
+city        2020  2021  2022  2023  2024  2025
+calgary      100   100   100   100     0     0
+vancouver    100   100   100   100   100     0
+edmonton     100   100   100   100   100     0
+winnipeg     100   100    96    94    91     0
+toronto      100   100   100   100   100     0
+ottawa       100    99   100    98    99     0
+montreal     100   100   100   100   100     0
+halifax       97   100   100    88   100     0
+
+2. Nights with no PM2.5 behind them, and their column AOD (median / peak above 0.30)
+city         obs  uncov  uncov% | median  peak | good unc. median  peak top peak | good cov. median  peak
+calgary      456    146   32.0% |      5     7 |       116      0     1     0.31 |       276      0     0
+vancouver    464     92   19.8% |      3     4 |        58      0     1     0.32 |       232      1     3
+edmonton     351     63   17.9% |      3     3 |        48      0     0     0.13 |       247      2     3
+winnipeg     547    112   20.5% |      1     4 |        89      0     0     0.17 |       330      0     1
+toronto      590    107   18.1% |      9    10 |        61      0     0     0.24 |       289      3     8
+ottawa       489     86   17.6% |      4     7 |        58      0     1     0.30 |       275      1     3
+montreal     509     86   16.9% |      3     5 |        53      0     0     0.21 |       285      3     5
+halifax      462    103   22.3% |      3     5 |        69      0     0     0.25 |       259      3     4
+---------------------------------------------------------------------------------------------------------
+POOLED      3868    795   20.6% |     31    45 |       552      0     3     0.32 |      2193     13    27
+
+Coverage is thinnest at calgary (32% of its observable nights have no surface PM2.5), against 17-22% elsewhere.
+Uncovered observable nights with median AOD above 0.30: 31; of the uncovered good nights, 0 (peak above: 3).
+Good nights with no PM2.5 behind them: 552 pooled, 92/yr; with PM2.5: 2193, of which 13 have median AOD above 0.30 (27 by peak).

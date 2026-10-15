@@ -1,0 +1,23 @@
+# Reproduce every table, figure and check from the shipped data/, no downloads:
+numpy
+netCDF4
+matplotlib
+ephem
+
+# The map (headline_corrected.py) needs cartopy; the other figures build without it, and the
+# map is skipped with a message if it is absent.
+cartopy
+
+# The light-pollution scripts (falchi.py, skyglow.py, calibrate_skyglow.py, sqm_check.py,
+# tess_check.py) also need:
+rasterio
+geopandas
+pandas          # sqm_check.py, tess_check.py
+requests        # tess_check.py --fetch, tess_scan.py
+
+# Only needed to re-fetch the inputs from scratch:
+cdsapi          # ERA5 and ERA5-Land, from the Copernicus CDS
+xarray          # fetch_pwv_box.py only
+
+# METAR (IEM), PM2.5 (ECCC NAPS) and MERRA-2 AOD are fetched over plain HTTP with curl and
+# need nothing extra.

@@ -1,0 +1,47 @@
+# Definition of the community standard for skyglow observations 1.0
+# URL: http://www.darksky.org/NSBM/sdf1.0.pdf
+# Number of header lines: 35
+# This data is released under the following license: ODbL 1.0 http://opendatacommons.org/licenses/odbl/summary/
+# Device type: TESS-W
+# Instrument ID: stars645
+# Data supplier: None / Parc national du Mont-Saint-Bruno
+# Location name: Parc national du Mont-Saint-Bruno / Saint-Bruno-de-Montarville / Urban agglomeration of Longueuil / Quebec / Canada 
+# Position: 45.546983, -73.345384, 0.0
+# Local timezone: America/Toronto
+# Time Synchronization: timestamp added by MQTT subscriber
+# Moving / Stationary position: STATIONARY
+# Moving / Fixed look direction: FIXED
+# Number of channels: 1
+# Filters per channel: None
+# Measurement direction per channel: (0.0, 0.0)
+# Field of view: 17.0
+# Number of fields per line: 8
+# TESS MAC address: 98:F4:AB:B2:7B:58
+# TESS firmware version: 1.0
+# TESS cover offset value: 0.0
+# TESS zero point: 20.4
+# Comment:  
+# Comment:
+# Comment:
+# Comment:
+# Comment:
+# Comment: 
+# Comment: MSAS = ZP - 2.5*log10(Frequency)
+# blank line 30
+# blank line 31
+# blank line 32
+# UTC Date & Time, Local Date & Time, Enclosure Temperature, Sky Temperature, Frequency, MSAS, ZP, Sequence Number
+# YYYY-MM-DDTHH:mm:ss.fff;YYYY-MM-DDTHH:mm:ss.fff;Celsius;Celsius;Hz;mag/arcsec^2;mag/arcsec^2; Multiple of Tx period
+# END OF HEADER
+2022-05-16T16:12:16.000;2022-05-16T12:12:16.000;24.24;26.03;39608.14;8.91;20.4;2
+2022-05-16T16:13:16.000;2022-05-16T12:13:16.000;24.55;26.11;35981.62;9.02;20.4;3
+2022-05-16T16:15:17.000;2022-05-16T12:15:17.000;25.18;25.62;28639.24;9.26;20.4;5
+2022-05-16T16:16:17.000;2022-05-16T12:16:17.000;25.46;25.6;28515.27;9.26;20.4;6
+2022-05-16T16:17:18.000;2022-05-16T12:17:18.000;25.75;25.68;28132.22;9.28;20.4;7
+2022-05-16T16:18:18.000;2022-05-16T12:18:18.000;26.03;25.61;28506.29;9.26;20.4;8
+2022-05-16T16:19:19.000;2022-05-16T12:19:19.000;26.29;25.61;28016.04;9.28;20.4;9
+2022-05-16T16:20:19.000;2022-05-16T12:20:19.000;26.55;25.64;27534.96;9.3;20.4;10
+2022-05-16T16:21:20.000;2022-05-16T12:21:20.000;26.76;25.56;24338.66;9.93;20.4;11
+2022-05-16T16:22:20.000;2022-05-16T12:22:20.000;26.94;25.36;23889.37;10.05;20.4;12
+2022-05-16T16:23:20.000;2022-05-16T12:23:20.000;27.12;25.29;26274.27;9.35;20.4;13
+2022-05-16T16:24:21.000;2022-05-16T12:24:21.000;27.26;25.27;25724.6;9.53;20.4;14

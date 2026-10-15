@@ -1,0 +1,19 @@
+Transparency bar: absolute 15 mm vs each city's own 40th-percentile dark-night PWV
+
+city        own p40  vs 15mm |  good(abs)  good(pct) | July pass abs    pct
+calgary        6.6mm    below |       86.2       53.5 |         12.2%   0.0%
+vancouver     13.4mm    below |       53.5       48.3 |          1.9%   1.2%
+edmonton       7.1mm    below |       63.3       39.7 |          0.0%   0.0%
+winnipeg       7.8mm    below |       80.5       57.8 |          1.7%   0.0%
+toronto       10.7mm    below |       71.3       55.8 |          2.2%   0.0%
+ottawa        10.6mm    below |       65.0       54.5 |          1.6%   0.0%
+montreal      10.9mm    below |       68.2       57.5 |          0.5%   0.0%
+halifax       11.5mm    below |       66.7       57.0 |          2.7%   0.0%
+
+Every city's own p40 lies BELOW 15 mm (6.6-13.4 mm), so the percentile bar is stricter everywhere.
+  ranking, absolute bar : cal > win > tor > mon > hal > ott > edm > van
+  ranking, percentile   : win > mon > hal > tor > ott > cal > van > edm
+  lowers every count: True
+  top two, absolute : calgary, winnipeg
+  top two, percentile: winnipeg, montreal
+  same two cities on top: False

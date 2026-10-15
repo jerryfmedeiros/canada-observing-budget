@@ -1,0 +1,22 @@
+Observable bar 4 h of clear astronomical darkness; correction reference gap (mean ceilometer gap, four paired cities) 16.55 pp
+
+city       nights longest h frac needed   longest dark h:    May   Jun   Jul   Aug
+calgary      2192     12.01       0.333                     4.23  0.00  3.14  6.36
+vancouver    2192     11.90       0.336                     4.82  1.44  3.95  6.68
+edmonton     2192     12.14       0.329                     3.37  0.00  1.69  5.94
+winnipeg     2192     11.94       0.335                     4.62  0.00  3.66  6.56
+toronto      2192     11.61       0.345                     6.03  4.24  5.44  7.39
+ottawa       2192     11.69       0.342                     5.72  3.68  5.06  7.20
+montreal     2192     11.70       0.342                     5.69  3.63  5.03  7.18
+halifax      2192     11.67       0.343                     5.81  3.84  5.17  7.25
+
+Imputed nights (fewer than the minimum dark reports), by month, 2020-2025 total; how many reach the bar raw / corrected
+city         J   F   M   A   M   J   J   A   S   O   N   D total     obs
+calgary      1   0   0   0  61   0 118   0   0   0   0   1   181   0 / 0
+vancouver    1   0   0   0   8 179  50   0   0   0   0   1   239   0 / 0
+edmonton     1   0   0   0 119   0 177   0   0   0   0   1   298   0 / 0
+winnipeg     1   0   0   0  19   0  74   0   0   0   0   1    95   0 / 0
+toronto      1   0   0   0   0   0   0   0   0   0   0   1     2   0 / 0
+ottawa       1   0   0   0   0   0   0   0   0   0   0   1     2   0 / 0
+montreal     1   0   0   0   0   0   0   0   0   0   0   1     2   0 / 0
+halifax      1   0   0   0   0   0   0   0   0   0   0   1     2   0 / 0
